@@ -1,0 +1,55 @@
+{
+ "cagri": 1470,
+ "usd_beklenen": 21.92,
+ "usd_en_kotu": 43.01,
+ "usd_birimle": 20.45,
+ "sure_saat_tahmin": 4.4,
+ "kol": {
+  "Bi": {
+   "cagri": 294,
+   "karakter_ort": 3860,
+   "karakter_en_cok": 26907,
+   "girdi_jeton_tahmin": 421856,
+   "girdi_jeton_cagri_ort": 1435,
+   "usd_beklenen": 4.25,
+   "usd_en_kotu": 8.46
+  },
+  "Bb": {
+   "cagri": 294,
+   "karakter_ort": 3896,
+   "karakter_en_cok": 26920,
+   "girdi_jeton_tahmin": 425778,
+   "girdi_jeton_cagri_ort": 1448,
+   "usd_beklenen": 4.25,
+   "usd_en_kotu": 8.47
+  },
+  "Ai": {
+   "cagri": 294,
+   "karakter_ort": 2727,
+   "karakter_en_cok": 24787,
+   "girdi_jeton_tahmin": 298092,
+   "girdi_jeton_cagri_ort": 1014,
+   "usd_beklenen": 4.18,
+   "usd_en_kotu": 8.4
+  },
+  "C": {
+   "cagri": 294,
+   "karakter_ort": 2547,
+   "karakter_en_cok": 24607,
+   "girdi_jeton_tahmin": 278419,
+   "girdi_jeton_cagri_ort": 947,
+   "usd_beklenen": 4.17,
+   "usd_en_kotu": 8.39
+  },
+  "F": {
+   "cagri": 294,
+   "karakter_ort": 17569,
+   "karakter_en_cok": 39629,
+   "girdi_jeton_tahmin": 1920229,
+   "girdi_jeton_cagri_ort": 6531,
+   "usd_beklenen": 5.07,
+   "usd_en_kotu": 9.29
+  }
+ },
+ "varsayim": "karakter / jeton 2,69 ve ortalama cikti 3.900 jeton #6'dan; fiyat 0,55 / 3,50 $ / 1M geri cozum (Adaption faturasiyla karsilastirilmadi); sure #6'daki 588 cagri 6.306 sn'den"
+}

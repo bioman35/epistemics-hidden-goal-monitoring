@@ -1,0 +1,74 @@
+# Epistemics Sprint · Track 2 Trust Infrastructure · code and data README (frozen 12 Nov 2026; sprint section updated 15 Nov 2026)
+
+**This project builds on my own pre-sprint work listed below; during the sprint I ran the four preregistered experiments S1-S4.**
+
+> Written at freeze time by `dondurma_12kas.py --yaz` (manifest, details table, snapshot). This README is outside the manifest because it carries the manifest's sha256.
+
+**Manifest:** `epistemics/DONDURMA_12KAS.sha256` · sha256 `b95e62a8f5f55333b63edacdf36cbb6793737eed6f869b390305213fac497c18` · verify with `sha256sum -c DONDURMA_12KAS.sha256` from the `sprint/` folder. Details (bytes, mtime UTC): `DONDURMA_12KAS.tsv` (sha256 `6df30d45c5769ae2e750484fcd75486011554dddda3ca23dddd1007416911fda`).
+**Snapshot:** `epistemics/DONDURMA_12KAS_kod_sonuc.zip` (scripts and result files of both folders; excludes `kosular/`, the replay folders `oynat/` (regenerable from `kosular/` with `yeniden_oynat.py`, listed in the manifest) and hidden-state arrays `gizli*/*.npy`), 2,466 files, 8.5 MB · sha256 `4be0b2d4558930fc4cd3c00999f07b639b70ecb974e2931c22d10407ddcb68fb`.
+
+Neither `epistemics/` nor `oyun_alani_v4/` is a git repository. Integrity is carried by sha256 manifests instead of commits.
+- `oyun_alani_v4/DONDURMA_4KAS.sha256` (4 Nov 2026, 2,327 files) is the earlier freeze of the world and the frozen runs. Checked on 12 Nov with `dondurma_12kas.py --kuru`: **2,327 / 2,327 files unchanged**, 0 changed, 0 missing.
+- 12 Nov manifest: 7,050 files, 578.3 MB; `sha256sum -c` passed for all 7,050 at freeze time. Excluded: `__pycache__`, `*.pyc`, the live Ollama server log (still being written), and this README.
+- Rule after the freeze: no file in the manifest is deleted or overwritten silently; if one changes before 13 Nov, a second manifest `DONDURMA_12KAS_b.sha256` and a difference list are written.
+
+## PREEXISTING (before 13 Nov 2026)
+Everything below existed before the sprint window and is reported as preexisting work.
+
+| component | where | sha256 (first 16) |
+|---|---|---|
+| Labirent v4 world | `oyun_alani_v4/dunya.py` | `a4ef8bd8ca6ef462` |
+| runner / model drivers | `oyun_alani_v4/suruculer.py`, `kosu_model.py`, `kartlar.py`, `kayit.py` | `8f35c2bb96ab6f90`, `750f46b7aaa7ccda`, `205bf12c613d377d`, `8038491fd50b351f` |
+| frozen runs (554) | `oyun_alani_v4/kosular/` (4 Nov freeze) | manifest `e0edffc75be5fb60` |
+| replay tool | `oyun_alani_v4/epistemik/yeniden_oynat.py` | `cb58b145e49ed562` |
+| case table | `oyun_alani_v4/epistemik/vaka_aday_tablo.py`, `epistemics/kosu_vakalari_11kas.jsonl` | `3ab5ef82c0857bc0` |
+| honeypot result | Swarm Track 1, REPORT_DRAFT_v5, appendix A4 (cited, not rerun as a primary result) | |
+| K1 judge (7B / 397B / DeepSeek, moment and run level) | `oyun_alani_v4/epistemik/yargic_k1.py`, `yargic_k1_kosu.py`, results `yargic_k1/*/sonuc.json` | `62dedb5fa372eab0`, `c3387741b4eb009a` |
+| ledger measurements (entropy, log-prob, probe, composite) | `olcum_isinim_ollama.py`, `olcum_kosu_isinim.py`, `olcum_sonda_11kas.py`, `olcum_defter_bilesim_11kas.py`, `gece_11kas.py`, `hf_ek_11kas.py` | `bb85b53f88c10681`, `4cfb05d74ced4667`, `844d0fafcca530e5`, `e01310c205c82fe0`, `46befe4cd3d0a2d1`, `5206ea554a24edca` |
+| twin cards (K0 / I1 / I2, seeds 16-30) | `oyun_alani_v4/kosu_ikiz.py`, `epistemik/ikiz_kart/ikiz_olc.py`, `zincir_ikiz.py`, pre-registration `ikiz_kart/ONKAYIT_ikiz_11kas.md` | `2c12f23ea42feb9d`, `bcfceb3343463384`, `8644db05013a7ec9` |
+| transfer-moment test (AU / AG, seeds 31-45) | `oyun_alani_v4/aktarim/dunya_aktarim.py`, `kosu_aktarim.py`, `epistemik/aktarim/aktarim_olc.py`, pre-registration `aktarim/ONKAYIT_aktarim_11kas.md` | `b965ef2ec97b171f`, `6921a5b52aa4d8dd`, `1c988ab08f296a4c` |
+| DNA-1 (probe transfer) and DNA-2 (counterfactual goal line) | `epistemik/dna/dna1_sonda.py`, `dna2_karsi.py`, pre-registration `dna/ONKAYIT_dna_11kas.md` | `652adca3b732d6cf`, `6de3dcaf87a263cf` |
+| judge run #6 (397B + DeepSeek, 98 contradiction moments, 3 repeats) | `epistemik/yargic_ikiz_11kas.py`, results `yargic_k1/olcum_yargic_ikiz_11kas.{json,md}`, pre-registration `yargic_k1/ONKAYIT_yargic_ikiz_11kas.md` | `80b1a06fae78939e` |
+| audit T1-T5 | `epistemik/tarama_11kas.py`, `tarama_11kas.{json,md}` | `daaa87625bc0bf0d` |
+| figures F1-F6 | `epistemics/sekil/sekil.py`, sources and sha in `sekil/KAYNAK.md` | `cf7d3e7d0c37a973` |
+| lock text (12 Nov) | `epistemics/KILIT_12kas.md` | in manifest |
+| S2 window check (12 Nov, existing data, CPU) | `oyun_alani_v4/epistemik/onkayit_sprint/pencere_denetimi_12kas.py`, `pencere_denetimi_12kas.json` | `557fc3474d703934`, `8cdb6161113a3b42` |
+| sprint pre-registrations (text only, written 12 Nov) | `epistemik/onkayit_sprint/ONKAYIT_S1_yargic_ayirma.md`, `ONKAYIT_S2_geri_cagirma.md`, `ONKAYIT_S3_397b_ajan.md` | in manifest |
+
+Model and runtime facts (from run metadata): Ollama 0.40.15, `qwen2.5:7b-instruct-q4_K_M`, temperature 0.7, num_ctx 4096; HF NF4 twin for teacher-forced measurements; Adaption Responses API for `qwen3.5-397b` and `deepseek-v4-flash` (T 0, no seed). Single 6 GB laptop GPU. Paid judge runs: K1 397B 1.674 USD; #6 about 8.98 USD (price × measured tokens, not checked against an invoice).
+
+## NEW WORK DURING THE SPRINT (13-15 Nov)
+Four preregistered experiments (S1-S3 preregistered on 12 Nov before the sprint; S4 added during the sprint and preregistered before its code), the figures and tables of the report, a delivery video, the report appendices and the code / data package. Each entry gives the preregistration, script and result file with sha256; times are read from run logs or file times (TR, UTC+3). No interpretation here; see the result files and the report.
+
+- **S1 judge ablation · run started 13 Nov 2026 18:38 TR (5-call smoke test at 18:36).** Pre-registration `oyun_alani_v4/epistemik/onkayit_sprint/ONKAYIT_S1_yargic_ayirma.md`. Folder `oyun_alani_v4/epistemik/sprint_s1/`. Script `yargic_s1.py` sha `9ef454d6…43e7ca` (run and analysis in one file, written and dry-tested on fabricated answers before the first paid call; it imports the frozen #6 script `yargic_ikiz_11kas.py`, sha `80b1a06f…`, unchanged). Deviations and choices left open by the pre-registration: `SAPMA_S1_13kas.md` (`43233a4a…`), written 18:35. Same 98 contradiction moments, 397B, T=0, 3 repeats, 5 new arms, 1,470 calls; pre-run cost count `jeton_s1_13kas.json`. Result file `olcum_s1_13kas.json` / `.md` (all cells, no selection) is filled when the run ends.
+  - Run ended 14 Nov 2026 00:00 TR (clock-read from the run log). Calls on record 1,468 (5 smoke + 1,463 new); 2 calls errored and were not retried; 22 cut off at the output limit (counted invalid). Estimated spend 21.66 USD. Result files `olcum_s1_13kas.json` sha `79985020a316e192…`, `olcum_s1_13kas.md` sha `c9e7ca63c1102311…`; call log `kosu_397b_s1_13kas/cagri.jsonl` sha `1a485b010fe4806d…`. No interpretation here; see the result file.
+
+- **S2 recall test · code (started 13 Nov 2026 18:05 TR, after the opening talk; no run yet).** Pre-registration `oyun_alani_v4/epistemik/onkayit_sprint/ONKAYIT_S2_geri_cagirma.md`. New folder `oyun_alani_v4/epistemik/sprint_s2/` (all sprint files for S2 live here; frozen files untouched, `sha256sum -c DONDURMA_12KAS.sha256` passes on 7,050 files).
+  - `dunya_durdur.py` sha `ae1fe47d…5c835e`: copy of frozen `dunya.py` (`a4ef8bd8…`) plus one mechanic, 34 added lines, 0 removed; generated by `_uret_dunya_durdur.py` (`7339f3fd…`). Order text as pre-registered, given at `cikis_odasi`, persistent in every later observation; the K2-arrival option exists in code and is refused by the driver for scored runs.
+  - `kosu_durdur.py` (`227c197f…`) driver, arms DU / DG / EG primary and EU as a repeat of DU, seeds 46-60 · `zincir_s2.py` (`86167dc0…`) run chain, seed by seed, with a broadcast watchdog · `olc_s2.py` (`ca5ebda0…`) measure (strict return primary, `bitir` separate, window "until delivery or 6 decisions", reach rate per type, decision-count baseline two ways) · `sina_olc_s2.py` (`1207c601…`) unit test 14 / 14 · `celiski_s2.py` (`07db229f…`) contradiction-persistence baseline, a separate step, dry-tested without a model.
+  - Deviations from the pre-registration, written before the first model call: `SAPMA_S2_13kas.md` (`e9cb0b6b…`): folder path; EU is not counted in the primary result (same setup and same model seeds as DU) and the E comparison is DU vs EG; decision-count baseline uses decisions before the order; contradiction forks are a separate step; runs go seed by seed.
+  - Checks done on CPU, no model: `denetim_kapali_s2_13kas.json` (order off: three frozen runs replay line for line, 116/116, 70/70, 282/282); fake-carrier dry run of all four arms (12 runs, replay 12/12, order field in every carrier prompt after the order, 0 in other agents' prompts).
+  - No-order reference from existing transfer runs (seeds 31-45): `olcum_s2_basvuru_emirsiz.json` (`dbe0093b…`), strict return U 1/11, G 1/15.
+  - Not done: the 60 scored runs (need the GPU and a no-broadcast window).
+
+- **S2 recall test · run 14 Nov 2026 02:09-05:12 TR (clock-read from the run logs).** Pre-registration `oyun_alani_v4/epistemik/onkayit_sprint/ONKAYIT_S2_geri_cagirma.md`. Folder `oyun_alani_v4/epistemik/sprint_s2/`. Deviation files `SAPMA_S2_13kas.md` (sha `e9cb0b6be3421bf2…`) and `SAPMA_S2_ek_14kas.md` (sha `bfd2fd7b4d350566…`; Ollama had silently updated to 0.40.16 without its GPU library on 12 Nov, it was reinstalled as 0.40.15 before the run; bridge check `kopru_s2_14kas.md`: three frozen cold runs reproduced row for row). 60 runs (15 seeds x DU, DG, EG, then EU), all exit 0, 0 restarts, one aborted folder kept (`DU/t46_yarim_020943`, no model call). Replay check 60/60 row-identical. Result files `olcum_s2_13kas.json` sha `1b2933b78e5ea9e0…`, `olcum_s2_13kas.md` sha `4f717607d8190389…`, `olcum_celiski_s2_13kas.json` sha `51862e3590e5fe53…`. Per-minute Ollama record `ollama_kayit_13kas.jsonl` (version 0.40.15 throughout). 0 USD (local model). No interpretation here; see the result files.
+
+- **S3 397B agent · run 14 Nov 2026 08:07-09:53 TR (clock-read from the run logs).** Ordinary arm only (pre-registration path 3 after S2). Pre-registration `oyun_alani_v4/epistemik/onkayit_sprint/ONKAYIT_S3_397b_ajan.md`. Folder `oyun_alani_v4/epistemik/sprint_s3/`. Deviation file `SAPMA_S3_14kas.md` (sha `f45d75282f30d77e…`, written before the first model call and extended before the main run). Model qwen3.5-397b via Adaption, T 0.7, output budget 8,000, no seed (runs are not reproducible). 30 runs (15 seeds x T1 = U1 / T1 = G), all complete, 0 cut at the 150-call limit, 1,059 calls; contradiction fork N=10, 890 calls. Result files `olcum_s3_14kas.json` sha `7a9f7701dc6f64f8…`, `olcum_s3_14kas.md` sha `8e931f61f82b810f…`. Spend 9.35 USD (Adaption credits, token x price). No interpretation here; see the result file.
+
+- **S4 goal self-report check · run 14 Nov 2026 10:27-13:29 TR (first and last call time in `cagri_s4_*.jsonl`; 397B main run from 10:45).** Added during the sprint after S3 (Turan's request via the advisor). Pre-registration `oyun_alani_v4/epistemik/onkayit_sprint/ONKAYIT_S4_hedef_farkindalik.md` (sha `98e579f9a41d1b70…`, written before code). Folder `oyun_alani_v4/epistemik/sprint_s4/`, deviations `SAPMA_S4_14kas.md` (sha `f615f487f1fd1c70…`; output budget raised from 2,000 to 8,000 and the empty-answer brake lifted for 397B after two braked attempts, kept as separate files). No new game runs: two out-of-game questions appended to the recorded prompts of the S3 (397B, 89 moments) and S2 (7B, 75 moments) fork moments, 3 repeats each; 397B 534 calls (227 empty: reasoning filled the budget), 7B 450 calls (local, 0.40.15). This is SELF-REPORT, not a measure of intent. Result files `olcum_s4_14kas.json` sha `8edcd0cbad5b9d26…`, `olcum_s4_14kas.md` sha `0e9e2bb3cd09d289…`; blind-coding file `korleme_s4_40.md` with separate key. Spend 14.25 USD (13.18 + 1.07 for the two braked attempts). No interpretation here.
+
+- **Figures and tables · 14 Nov 2026 13:38 TR (file time).** Script `epistemics/sekil_sprint/sekil_sprint.py` (sha `ade07a47e7d4b4da…`), reads only measurement files; writes `sekil1_auc.png/svg` (sha png `1c5c2719684d68be…`), `sekil2_hedef_anma.png/svg` (sha png `12c84f2963b73796…`), `tablo1_s1_birincil.md/csv` (sha md `70ff203dbb51cc3c…`) and `KAYNAK.md` (one line per plotted number: file, field, value; sha `dd0e69e7b1bbde96…`).
+
+- **Delivery video · 14 Nov 2026, v1 15:00, v4 18:17 TR (file times of the mp4 files).** `film_epistemics/teslim_videosu_v4.mp4` (105.3 s, 1920x1080, silent, English subtitles; sha `c7b0521e759d2fe8…`; v1-v3 kept). Text `film_epistemics/FILM_METNI_14kas.md` (version 4, sha `ead09be0df69bfbe…`; version 3 kept as `FILM_METNI_14kas_surum3.md`); every subtitle and number with its file and field in `film_epistemics/KAYNAK.md` (sha `7bc3980923115a2e…`), generated by `arac/ep_metin4.py`. Scene code is a copy of the pre-sprint film tool (`film_epistemics/arac/`, see Appendix C); the two runs shown are S2 seed 58 (DU_58, EG_58) from the recorded run files; the "path removed" moments are re-asks outside the game and are labelled so in the video.
+
+- **Report appendices · 15 Nov 2026.** `epistemics/rapor_ekleri/`: `EK_B_tablolar.md` (full tables), `EK_C_onceki_is.md` (pre-sprint files with sha256, file time, README-prefix check and 12 Nov manifest check), `EK_D_onkayit_sapma.md` (preregistrations, deviation files, measurement files and scripts with sha256 and file time), all generated by `ekler_uret.py` from the files they cite (no number typed by hand).
+
+- **Code / data package · 15 Nov 2026.** Archive contents, sizes, sha256 manifest and the secret / personal-data scan result: `epistemics/rapor_ekleri/PAKET.md`. Not published anywhere; publishing is the author's decision.
+
+## Reproduce
+- Measurements read their inputs from the paths above; every result file names its script.
+- Figures: `python -I epistemics/sekil/sekil.py` (reads only measurement files, writes SVG + PNG + `KAYNAK.md`).
+- Freeze check: `python -I epistemics/dondurma_12kas.py --kuru`.
+- Report appendices: `python -I epistemics/rapor_ekleri/ekler_uret.py` (reads measurement files, writes the three appendices).
+- Video subtitles and sources: `python -I film_epistemics/arac/film_veri.py` then `python -I film_epistemics/arac/ep_metin4.py` (no model, no GPU); rendering needs the GPU (`film_epistemics/README.md`).
+

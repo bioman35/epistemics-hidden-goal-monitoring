@@ -1,0 +1,2 @@
+# keep every file byte-for-byte as packaged (sha256 in SHA256SUMS.txt); no line-ending conversion
+* -text

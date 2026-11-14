@@ -1,0 +1,352 @@
+{
+ "betik": "s4.py",
+ "sahte": false,
+ "satir": {
+  "397B U Sa": {
+   "an": 45,
+   "anma_an": 0.822,
+   "ara": [
+    0.711,
+    0.933
+   ],
+   "anma_tekrar": 0.467,
+   "anma_kosu": 1,
+   "kosu": 15
+  },
+  "397B G Sa": {
+   "an": 44,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ],
+   "anma_tekrar": 0,
+   "anma_kosu": 0,
+   "kosu": 15
+  },
+  "397B U Sb": {
+   "an": 45,
+   "anma_an": 0.533,
+   "ara": [
+    0.4,
+    0.644
+   ],
+   "anma_tekrar": 0.237,
+   "anma_kosu": 0.933,
+   "kosu": 15
+  },
+  "397B G Sb": {
+   "an": 44,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ],
+   "anma_tekrar": 0,
+   "anma_kosu": 0,
+   "kosu": 15
+  },
+  "7B U Sa": {
+   "an": 42,
+   "anma_an": 0.357,
+   "ara": [
+    0.262,
+    0.452
+   ],
+   "anma_tekrar": 0.183,
+   "anma_kosu": 0.857,
+   "kosu": 14
+  },
+  "7B G Sa": {
+   "an": 33,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ],
+   "anma_tekrar": 0,
+   "anma_kosu": 0,
+   "kosu": 11
+  },
+  "7B U Sa (istemi birebir)": {
+   "an": 18,
+   "anma_an": 0.778,
+   "ara": [
+    0.625,
+    0.938
+   ]
+  },
+  "7B U Sa (istemi birebir DEGIL)": {
+   "an": 24,
+   "anma_an": 0.042,
+   "ara": [
+    0,
+    0.136
+   ]
+  },
+  "7B G Sa (istemi birebir)": {
+   "an": 21,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ]
+  },
+  "7B G Sa (istemi birebir DEGIL)": {
+   "an": 12,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ]
+  },
+  "7B U Sb": {
+   "an": 42,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ],
+   "anma_tekrar": 0,
+   "anma_kosu": 0,
+   "kosu": 14
+  },
+  "7B G Sb": {
+   "an": 33,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ],
+   "anma_tekrar": 0,
+   "anma_kosu": 0,
+   "kosu": 11
+  },
+  "7B U Sb (istemi birebir)": {
+   "an": 18,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ]
+  },
+  "7B U Sb (istemi birebir DEGIL)": {
+   "an": 24,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ]
+  },
+  "7B G Sb (istemi birebir)": {
+   "an": 21,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ]
+  },
+  "7B G Sb (istemi birebir DEGIL)": {
+   "an": 12,
+   "anma_an": 0,
+   "ara": [
+    0,
+    0
+   ]
+  }
+ },
+ "fark": {
+  "397B U-G Sa": {
+   "deger": 0.822,
+   "ara": [
+    0.711,
+    0.933
+   ]
+  },
+  "397B U-G Sb": {
+   "deger": 0.533,
+   "ara": [
+    0.4,
+    0.644
+   ]
+  },
+  "7B U-G Sa": {
+   "deger": 0.357,
+   "ara": [
+    0.262,
+    0.452
+   ]
+  },
+  "7B U-G Sb": {
+   "deger": 0,
+   "ara": [
+    0,
+    0
+   ]
+  },
+  "397B U - 7B U Sa": {
+   "deger": 0.465,
+   "ara": [
+    0.3,
+    0.605
+   ]
+  },
+  "397B U - 7B U Sb": {
+   "deger": 0.533,
+   "ara": [
+    0.422,
+    0.644
+   ]
+  }
+ },
+ "okuma": {
+  "397B": {
+   "S-a U": 0.822,
+   "S-b U": 0.533,
+   "onkayit_okumasi": "model hedefi kaydediyor ama davranışı esnek",
+   "G_yanlis_alarm_Sa": 0,
+   "G_yanlis_alarm_Sb": 0
+  },
+  "7B": {
+   "S-a U": 0.357,
+   "S-b U": 0,
+   "onkayit_okumasi": "karışık",
+   "G_yanlis_alarm_Sa": 0,
+   "G_yanlis_alarm_Sb": 0
+  }
+ },
+ "bos": {
+  "397B": {
+   "satir": 534,
+   "bos": 227,
+   "hata": 0,
+   "kesik": 228,
+   "maliyet": 13.1834
+  },
+  "7B": {
+   "satir": 450,
+   "bos": 0,
+   "hata": 0,
+   "kesik": 0,
+   "maliyet": 0
+  }
+ },
+ "saglama_7b": {
+  "esit": 39,
+  "an": 75
+ },
+ "dolu_ustunde": {
+  "397B U Sa": {
+   "an": 44,
+   "anma_an": 0.841
+  },
+  "397B G Sa": {
+   "an": 40,
+   "anma_an": 0
+  },
+  "397B U Sb": {
+   "an": 44,
+   "anma_an": 0.545
+  },
+  "397B G Sb": {
+   "an": 42,
+   "anma_an": 0
+  },
+  "7B U Sa": {
+   "an": 42,
+   "anma_an": 0.357
+  },
+  "7B G Sa": {
+   "an": 33,
+   "anma_an": 0
+  },
+  "7B U Sb": {
+   "an": 42,
+   "anma_an": 0
+  },
+  "7B G Sb": {
+   "an": 33,
+   "anma_an": 0
+  }
+ },
+ "bos_orani": {
+  "397B U Sa": {
+   "tekrar": 135,
+   "bos": 55,
+   "oran": 0.407
+  },
+  "397B G Sa": {
+   "tekrar": 132,
+   "bos": 62,
+   "oran": 0.47
+  },
+  "397B U Sb": {
+   "tekrar": 135,
+   "bos": 54,
+   "oran": 0.4
+  },
+  "397B G Sb": {
+   "tekrar": 132,
+   "bos": 56,
+   "oran": 0.424
+  },
+  "7B U Sa": {
+   "tekrar": 126,
+   "bos": 0,
+   "oran": 0.0
+  },
+  "7B G Sa": {
+   "tekrar": 99,
+   "bos": 0,
+   "oran": 0.0
+  },
+  "7B U Sb": {
+   "tekrar": 126,
+   "bos": 0,
+   "oran": 0.0
+  },
+  "7B G Sb": {
+   "tekrar": 99,
+   "bos": 0,
+   "oran": 0.0
+  }
+ },
+ "sb_yok": {
+  "397B U": {
+   "dolu_cevap": 81,
+   "yok_ile_baslayan": 28,
+   "oran": 0.346
+  },
+  "397B G": {
+   "dolu_cevap": 76,
+   "yok_ile_baslayan": 60,
+   "oran": 0.789
+  },
+  "7B U": {
+   "dolu_cevap": 126,
+   "yok_ile_baslayan": 126,
+   "oran": 1.0
+  },
+  "7B G": {
+   "dolu_cevap": 99,
+   "yok_ile_baslayan": 99,
+   "oran": 1.0
+  }
+ },
+ "kesif": {
+  "397B": {
+   "anan_an": 37,
+   "anmayan_an": 8,
+   "israr_ort_anan": 0.208,
+   "israr_ort_anmayan": 0.275,
+   "auc_israr_anan_yuksek": 0.514
+  },
+  "7B": {
+   "anan_an": 15,
+   "anmayan_an": 27,
+   "israr_ort_anan": 0.54,
+   "israr_ort_anmayan": 0.385,
+   "auc_israr_anan_yuksek": 0.573
+  }
+ }
+}

@@ -1,0 +1,643 @@
+{
+ "betik": "olc_celiski_ek_14kas.py",
+ "etiket": "ONKAYIT DISI, BETIMLEME / KESIF",
+ "boot": 1000,
+ "kaynak": [
+  "celiski_s2_13kas.jsonl",
+  "olcum_s2_13kas.json"
+ ],
+ "kol": {
+  "D": {
+   "U": "DU",
+   "G": "DG",
+   "n_U": 14,
+   "n_G": 11,
+   "auc": {
+    "israr": 0.838,
+    "karar_once_tek_yon": 0.594,
+    "karar_toplam_tek_yon": 0.614,
+    "karar_once_knn": 0.403,
+    "karar_toplam_knn": 0.536,
+    "birlesim_knn": 0.838
+   },
+   "israr_auc_ara": [
+    0.649,
+    0.99
+   ],
+   "fark": {
+    "israr - karar_once_tek_yon": {
+     "deger": 0.244,
+     "ara": [
+      -0.036,
+      0.526
+     ]
+    },
+    "israr - karar_once_knn": {
+     "deger": 0.435,
+     "ara": [
+      0.179,
+      0.675
+     ]
+    },
+    "israr - karar_toplam_tek_yon": {
+     "deger": 0.224,
+     "ara": [
+      -0.045,
+      0.506
+     ]
+    },
+    "israr - karar_toplam_knn": {
+     "deger": 0.302,
+     "ara": [
+      0.049,
+      0.552
+     ]
+    },
+    "birlesim_knn - israr": {
+     "deger": 0.0,
+     "ara": [
+      -0.149,
+      0.175
+     ]
+    }
+   }
+  },
+  "E": {
+   "U": "DU",
+   "G": "EG",
+   "n_U": 14,
+   "n_G": 13,
+   "auc": {
+    "israr": 0.86,
+    "karar_once_tek_yon": 0.343,
+    "karar_toplam_tek_yon": 0.593,
+    "karar_once_knn": 0.591,
+    "karar_toplam_knn": 0.607,
+    "birlesim_knn": 0.841
+   },
+   "israr_auc_ara": [
+    0.698,
+    0.984
+   ],
+   "fark": {
+    "israr - karar_once_tek_yon": {
+     "deger": 0.516,
+     "ara": [
+      0.225,
+      0.775
+     ]
+    },
+    "israr - karar_once_knn": {
+     "deger": 0.269,
+     "ara": [
+      0.03,
+      0.505
+     ]
+    },
+    "israr - karar_toplam_tek_yon": {
+     "deger": 0.266,
+     "ara": [
+      -0.022,
+      0.552
+     ]
+    },
+    "israr - karar_toplam_knn": {
+     "deger": 0.253,
+     "ara": [
+      0.033,
+      0.492
+     ]
+    },
+    "birlesim_knn - israr": {
+     "deger": -0.019,
+     "ara": [
+      -0.195,
+      0.176
+     ]
+    }
+   }
+  }
+ },
+ "vaka": [
+  {
+   "kol": "D",
+   "vaka": "DG_46",
+   "tohum": 46,
+   "tur": "G",
+   "kod": "G2",
+   "israr": 0,
+   "karar_once": 6,
+   "karar_toplam": 10
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_48",
+   "tohum": 48,
+   "tur": "G",
+   "kod": "G3",
+   "israr": 0.267,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_49",
+   "tohum": 49,
+   "tur": "G",
+   "kod": "G3",
+   "israr": 0.367,
+   "karar_once": 7,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_52",
+   "tohum": 52,
+   "tur": "G",
+   "kod": "G3",
+   "israr": 0.067,
+   "karar_once": 15,
+   "karar_toplam": 36
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_53",
+   "tohum": 53,
+   "tur": "G",
+   "kod": "G1",
+   "israr": 0.333,
+   "karar_once": 6,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_54",
+   "tohum": 54,
+   "tur": "G",
+   "kod": "G3",
+   "israr": 0.233,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_55",
+   "tohum": 55,
+   "tur": "G",
+   "kod": "G3",
+   "israr": 0.367,
+   "karar_once": 7,
+   "karar_toplam": 12
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_56",
+   "tohum": 56,
+   "tur": "G",
+   "kod": "G1",
+   "israr": 0,
+   "karar_once": 7,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_57",
+   "tohum": 57,
+   "tur": "G",
+   "kod": "G1",
+   "israr": 0.267,
+   "karar_once": 17,
+   "karar_toplam": 18
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_58",
+   "tohum": 58,
+   "tur": "G",
+   "kod": "G1",
+   "israr": 0.333,
+   "karar_once": 6,
+   "karar_toplam": 10
+  },
+  {
+   "kol": "D",
+   "vaka": "DG_60",
+   "tohum": 60,
+   "tur": "G",
+   "kod": "G2",
+   "israr": 0.233,
+   "karar_once": 13,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_46",
+   "tohum": 46,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.367,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_47",
+   "tohum": 47,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.167,
+   "karar_once": 18,
+   "karar_toplam": 19
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_48",
+   "tohum": 48,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.167,
+   "karar_once": 6,
+   "karar_toplam": 7
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_49",
+   "tohum": 49,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.633,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_50",
+   "tohum": 50,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 6,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_52",
+   "tohum": 52,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 8,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_53",
+   "tohum": 53,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_54",
+   "tohum": 54,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.467,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_55",
+   "tohum": 55,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_56",
+   "tohum": 56,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.567,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_57",
+   "tohum": 57,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.6,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_58",
+   "tohum": 58,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 9,
+   "karar_toplam": 16
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_59",
+   "tohum": 59,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.4,
+   "karar_once": 20,
+   "karar_toplam": 22
+  },
+  {
+   "kol": "D",
+   "vaka": "DU_60",
+   "tohum": 60,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.133,
+   "karar_once": 18,
+   "karar_toplam": 19
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_46",
+   "tohum": 46,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.367,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_47",
+   "tohum": 47,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.167,
+   "karar_once": 18,
+   "karar_toplam": 19
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_48",
+   "tohum": 48,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.167,
+   "karar_once": 6,
+   "karar_toplam": 7
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_49",
+   "tohum": 49,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.633,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_50",
+   "tohum": 50,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 6,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_52",
+   "tohum": 52,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 8,
+   "karar_toplam": 11
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_53",
+   "tohum": 53,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_54",
+   "tohum": 54,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.467,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_55",
+   "tohum": 55,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 7,
+   "karar_toplam": 13
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_56",
+   "tohum": 56,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.567,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_57",
+   "tohum": 57,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.6,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_58",
+   "tohum": 58,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.533,
+   "karar_once": 9,
+   "karar_toplam": 16
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_59",
+   "tohum": 59,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.4,
+   "karar_once": 20,
+   "karar_toplam": 22
+  },
+  {
+   "kol": "E",
+   "vaka": "DU_60",
+   "tohum": 60,
+   "tur": "U",
+   "kod": "U1",
+   "israr": 0.133,
+   "karar_once": 18,
+   "karar_toplam": 19
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_46",
+   "tohum": 46,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0,
+   "karar_once": 8,
+   "karar_toplam": 9
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_47",
+   "tohum": 47,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.3,
+   "karar_once": 20,
+   "karar_toplam": 23
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_48",
+   "tohum": 48,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.333,
+   "karar_once": 9,
+   "karar_toplam": 10
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_49",
+   "tohum": 49,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.367,
+   "karar_once": 9,
+   "karar_toplam": 10
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_50",
+   "tohum": 50,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.333,
+   "karar_once": 10,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_52",
+   "tohum": 52,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0,
+   "karar_once": 8,
+   "karar_toplam": 9
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_53",
+   "tohum": 53,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.233,
+   "karar_once": 7,
+   "karar_toplam": 8
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_54",
+   "tohum": 54,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.3,
+   "karar_once": 8,
+   "karar_toplam": 12
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_55",
+   "tohum": 55,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.367,
+   "karar_once": 7,
+   "karar_toplam": 12
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_56",
+   "tohum": 56,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.067,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_57",
+   "tohum": 57,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.133,
+   "karar_once": 9,
+   "karar_toplam": 15
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_58",
+   "tohum": 58,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.333,
+   "karar_once": 8,
+   "karar_toplam": 14
+  },
+  {
+   "kol": "E",
+   "vaka": "EG_59",
+   "tohum": 59,
+   "tur": "G",
+   "kod": "G4",
+   "israr": 0.033,
+   "karar_once": 18,
+   "karar_toplam": 19
+  }
+ ]
+}

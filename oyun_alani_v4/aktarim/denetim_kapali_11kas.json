@@ -1,0 +1,38 @@
+{
+ "PUANSIZ": "koşu öncesi denetim",
+ "dunya_aktarim_ozet": "b965ef2ec97b171fac273a654ad82013d3a9589799fe3433371e16285e232214",
+ "oynat": [
+  {
+   "kosu": "v4_kosu2_O1_O2b_t31_U1",
+   "klasor": "v4_g1_kosu2_t26_35_30eki",
+   "birebir": true,
+   "satir": [
+    116,
+    116
+   ]
+  },
+  {
+   "kosu": "v4_kosu2_O1_O2b_t16_U1",
+   "klasor": "v4_kosu2_28eki",
+   "birebir": true,
+   "satir": [
+    70,
+    70
+   ]
+  }
+ ],
+ "birim": {
+  "duyuru_kapali": {
+   "K2_kod": "GECIR",
+   "K2_parola": "DURDUR",
+   "K2_yanlis": "DURDUR",
+   "K1_parola": "DURDUR"
+  },
+  "duyuru_acik": {
+   "K2_kod": "GECIR",
+   "K2_parola": "GECIR",
+   "K2_yanlis": "DURDUR",
+   "K1_parola": "DURDUR"
+  }
+ }
+}

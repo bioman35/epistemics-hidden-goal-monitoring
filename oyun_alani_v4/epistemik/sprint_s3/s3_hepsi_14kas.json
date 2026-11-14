@@ -1,0 +1,44 @@
+{
+ "baslangic": "2026-11-14T08:07:54",
+ "adim": [
+  {
+   "ad": "pilot",
+   "cikis": 0,
+   "sure_sn": 345
+  },
+  {
+   "ad": "asil",
+   "cikis": 0,
+   "sure_sn": 2896
+  },
+  {
+   "ad": "catal",
+   "cikis": 0,
+   "sure_sn": 3080
+  },
+  {
+   "ad": "olcu",
+   "cikis": 0,
+   "sure_sn": 1
+  }
+ ],
+ "pilot": {
+  "durum": "tamam",
+  "cagri": 36,
+  "gecersiz_oran": 0.0,
+  "cikti_ort": 893,
+  "hata": 0,
+  "kesik": 0,
+  "maliyet": 0.144,
+  "sure_sn": 333,
+  "ilk_cagri": {
+   "durum": "completed",
+   "hata": null,
+   "girdi": 565,
+   "cikti": 4366,
+   "gecersiz": false
+  }
+ },
+ "durum": "tamam",
+ "bitis": "2026-11-14T09:53:16"
+}

@@ -1,0 +1,95 @@
+2026-11-14 08:07:54 ZINCIR S3 pilot · is 1 · kalan 1 · paralel 4 · UCRETLI
+2026-11-14 08:07:54 BASLADI SU 46 deneme 1
+S3 SU t46 tamam · T1 U1 · cagri 36 · gecersiz 0 · kesik 0 · 0.1440 $ · 333 sn
+2026-11-14 08:13:39 BITTI SU 46 cikis 0 sure sn 345
+2026-11-14 08:13:39 ZINCIR S3 SONU pilot · durum tamam · cagri 36 · harcama 0.1440 $
+2026-11-14 08:13:39 TAHMIN (pilottan): pilot cagri 36, cagri basi 0.0040 $, koşular 30 x 36 x c = 4.32 $, catal 900 x c = 3.60 $, toplam 7.92 $ (sinir 50 $)
+2026-11-14 08:13:39 ZINCIR S3 asil · is 29 · kalan 29 · paralel 4 · UCRETLI
+2026-11-14 08:13:39 BASLADI SG 46 deneme 1
+2026-11-14 08:13:39 BASLADI SU 47 deneme 1
+2026-11-14 08:13:39 BASLADI SG 47 deneme 1
+2026-11-14 08:13:39 BASLADI SU 48 deneme 1
+S3 SU t48 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.1142 $ · 273 sn
+2026-11-14 08:18:24 BITTI SU 48 cikis 0 sure sn 285
+2026-11-14 08:18:24 BASLADI SG 48 deneme 1
+S3 SU t47 tamam · T1 U1 · cagri 42 · gecersiz 0 · kesik 0 · 0.1533 $ · 347 sn
+2026-11-14 08:19:39 BITTI SU 47 cikis 0 sure sn 360
+2026-11-14 08:19:39 BASLADI SU 49 deneme 1
+S3 SG t46 tamam · T1 G2 · cagri 31 · gecersiz 1 · kesik 1 · 0.1873 $ · 459 sn
+2026-11-14 08:21:24 BITTI SG 46 cikis 0 sure sn 465
+2026-11-14 08:21:24 BASLADI SG 49 deneme 1
+S3 SG t47 tamam · T1 G1 · cagri 43 · gecersiz 2 · kesik 2 · 0.2163 $ · 517 sn
+2026-11-14 08:22:24 BITTI SG 47 cikis 0 sure sn 525
+2026-11-14 08:22:24 BASLADI SU 50 deneme 1
+S3 SG t48 tamam · T1 G3 · cagri 33 · gecersiz 0 · kesik 0 · 0.1080 $ · 244 sn
+2026-11-14 08:22:39 BITTI SG 48 cikis 0 sure sn 255
+2026-11-14 08:22:39 BASLADI SG 50 deneme 1
+S3 SU t49 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.1010 $ · 238 sn
+2026-11-14 08:23:39 BITTI SU 49 cikis 0 sure sn 240
+2026-11-14 08:23:39 BASLADI SU 51 deneme 1
+S3 SG t50 tamam · T1 G1 · cagri 30 · gecersiz 0 · kesik 0 · 0.0826 $ · 197 sn
+S3 SG t49 tamam · T1 G3 · cagri 30 · gecersiz 0 · kesik 0 · 0.1131 $ · 281 sn
+2026-11-14 08:26:09 BITTI SG 49 cikis 0 sure sn 285
+2026-11-14 08:26:09 BITTI SG 50 cikis 0 sure sn 210
+2026-11-14 08:26:09 BASLADI SG 51 deneme 1
+2026-11-14 08:26:09 BASLADI SU 52 deneme 1
+S3 SU t50 tamam · T1 U1 · cagri 34 · gecersiz 0 · kesik 0 · 0.1238 $ · 312 sn
+2026-11-14 08:27:39 BITTI SU 50 cikis 0 sure sn 315
+2026-11-14 08:27:39 BASLADI SG 52 deneme 1
+S3 SU t51 tamam · T1 U1 · cagri 42 · gecersiz 0 · kesik 0 · 0.1890 $ · 487 sn
+2026-11-14 08:31:54 BITTI SU 51 cikis 0 sure sn 495
+2026-11-14 08:31:54 BASLADI SU 53 deneme 1
+S3 SU t52 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.1432 $ · 372 sn
+2026-11-14 08:32:24 BITTI SU 52 cikis 0 sure sn 375
+2026-11-14 08:32:24 BASLADI SG 53 deneme 1
+S3 SG t51 tamam · T1 G2 · cagri 43 · gecersiz 1 · kesik 1 · 0.1757 $ · 460 sn
+2026-11-14 08:33:54 BITTI SG 51 cikis 0 sure sn 465
+2026-11-14 08:33:54 BASLADI SU 54 deneme 1
+S3 SG t52 tamam · T1 G3 · cagri 31 · gecersiz 1 · kesik 1 · 0.1676 $ · 458 sn
+2026-11-14 08:35:24 BITTI SG 52 cikis 0 sure sn 465
+2026-11-14 08:35:24 BASLADI SG 54 deneme 1
+S3 SU t53 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.0960 $ · 245 sn
+2026-11-14 08:36:09 BITTI SU 53 cikis 0 sure sn 255
+2026-11-14 08:36:09 BASLADI SU 55 deneme 1
+S3 SG t53 tamam · T1 G1 · cagri 33 · gecersiz 0 · kesik 0 · 0.1399 $ · 377 sn
+2026-11-14 08:38:54 BITTI SG 53 cikis 0 sure sn 390
+2026-11-14 08:38:54 BASLADI SG 55 deneme 1
+S3 SU t55 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.0836 $ · 216 sn
+2026-11-14 08:39:54 BITTI SU 55 cikis 0 sure sn 225
+2026-11-14 08:39:54 BASLADI SU 56 deneme 1
+S3 SU t54 tamam · T1 U1 · cagri 32 · gecersiz 2 · kesik 2 · 0.1475 $ · 406 sn
+2026-11-14 08:40:54 BITTI SU 54 cikis 0 sure sn 420
+2026-11-14 08:40:54 BASLADI SG 56 deneme 1
+S3 SG t54 tamam · T1 G3 · cagri 31 · gecersiz 1 · kesik 1 · 0.1432 $ · 393 sn
+S3 SG t55 tamam · T1 G3 · cagri 30 · gecersiz 0 · kesik 0 · 0.0788 $ · 193 sn
+2026-11-14 08:42:09 BITTI SG 54 cikis 0 sure sn 405
+2026-11-14 08:42:09 BITTI SG 55 cikis 0 sure sn 195
+2026-11-14 08:42:09 BASLADI SU 57 deneme 1
+2026-11-14 08:42:09 BASLADI SG 57 deneme 1
+S3 SG t57 tamam · T1 G1 · cagri 30 · gecersiz 0 · kesik 0 · 0.1148 $ · 322 sn
+2026-11-14 08:47:39 BITTI SG 57 cikis 0 sure sn 330
+2026-11-14 08:47:39 BASLADI SU 58 deneme 1
+S3 SU t56 tamam · T1 U1 · cagri 35 · gecersiz 2 · kesik 2 · 0.1939 $ · 506 sn
+2026-11-14 08:48:24 BITTI SU 56 cikis 0 sure sn 510
+2026-11-14 08:48:24 BASLADI SG 58 deneme 1
+S3 SU t57 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.1390 $ · 377 sn
+2026-11-14 08:48:39 BITTI SU 57 cikis 0 sure sn 390
+2026-11-14 08:48:39 BASLADI SU 59 deneme 1
+S3 SU t58 tamam · T1 U1 · cagri 30 · gecersiz 0 · kesik 0 · 0.0993 $ · 258 sn
+2026-11-14 08:52:09 BITTI SU 58 cikis 0 sure sn 270
+2026-11-14 08:52:09 BASLADI SG 59 deneme 1
+S3 SG t58 tamam · T1 G1 · cagri 34 · gecersiz 0 · kesik 0 · 0.1149 $ · 296 sn
+2026-11-14 08:53:24 BITTI SG 58 cikis 0 sure sn 300
+2026-11-14 08:53:24 BASLADI SU 60 deneme 1
+S3 SU t59 tamam · T1 U1 · cagri 42 · gecersiz 0 · kesik 0 · 0.1371 $ · 341 sn
+2026-11-14 08:54:24 BITTI SU 59 cikis 0 sure sn 345
+2026-11-14 08:54:25 BASLADI SG 60 deneme 1
+S3 SG t56 tamam · T1 G1 · cagri 59 · gecersiz 1 · kesik 1 · 0.3160 $ · 851 sn
+2026-11-14 08:55:10 BITTI SG 56 cikis 0 sure sn 855
+S3 SG t60 tamam · T1 G2 · cagri 42 · gecersiz 0 · kesik 0 · 0.1497 $ · 379 sn
+2026-11-14 09:00:55 BITTI SG 60 cikis 0 sure sn 390
+S3 SU t60 tamam · T1 U1 · cagri 42 · gecersiz 0 · kesik 0 · 0.1825 $ · 474 sn
+2026-11-14 09:01:25 BITTI SU 60 cikis 0 sure sn 480
+S3 SG t59 tamam · T1 G2 · cagri 44 · gecersiz 2 · kesik 2 · 0.2200 $ · 575 sn
+2026-11-14 09:01:55 BITTI SG 59 cikis 0 sure sn 585
+2026-11-14 09:01:55 ZINCIR S3 SONU asil · durum tamam · cagri 1059 · harcama 4.3751 $

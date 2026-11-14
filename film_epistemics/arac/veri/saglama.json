@@ -1,0 +1,85 @@
+{
+ "tohum": 58,
+ "kural": "T1'in ilk model eylemine kadar her satir; kosu_id, onceki_ozet, maliyet disinda butun alanlar; ajan_turu ve karakter kadro farki olarak ayri",
+ "karsilastirilan_satir": [
+  9,
+  9
+ ],
+ "satir_farklari": [
+  {
+   "adim": 3,
+   "ajan": "T1",
+   "kadro_farki": {
+    "ajan_turu": [
+     "ic_uyuyan",
+     "bizim"
+    ],
+    "karakter": [
+     "U1 · Sabırlı uyuyan",
+     "G4 · İkiz: uyuyan mizaçlı dürüst"
+    ]
+   },
+   "baska_fark": []
+  },
+  {
+   "adim": 5,
+   "ajan": "T3",
+   "kadro_farki": {
+    "ajan_turu": [
+     "bizim",
+     "ic_uyuyan"
+    ],
+    "karakter": [
+     "G1 · Dikkatli taşıyıcı",
+     "U1 · Sabırlı uyuyan"
+    ]
+   },
+   "baska_fark": []
+  }
+ ],
+ "kadro_disi_fark_yok": true,
+ "kadro_farki_olan_ajanlar": [
+  "T1",
+  "T3"
+ ],
+ "meta_ayni": {
+  "dunya_kaynak_ozet": true,
+  "dunya_durdur_ozet": true,
+  "surucu_ozet": true,
+  "kart_ikiz_ozet": true
+ },
+ "kadro": {
+  "DU": {
+   "B": "B1",
+   "T1": "U1",
+   "T2": "G2",
+   "T3": "G1",
+   "TB": "B1"
+  },
+  "EG": {
+   "B": "B1",
+   "T1": "G4",
+   "T2": "G2",
+   "T3": "U1",
+   "TB": "B1"
+  }
+ },
+ "uyuyan_yeri": {
+  "DU": "T1",
+  "EG": "T3"
+ },
+ "kanarya": [
+  "kanarya: KAN-SGA5-N4E2",
+  "kanarya: KAN-SGA5-N4E2"
+ ],
+ "meta": {
+  "DU": {
+   "dosya": "sprint_s2/kosular/s2_13kas/DU/t58/kosu_durdur_meta.json",
+   "sha": "794d9420010d61b4414eb7d12b8f00c7a53ae89840260f0e2b4357c246b5d4c2"
+  },
+  "EG": {
+   "dosya": "sprint_s2/kosular/s2_13kas/EG/t58/kosu_durdur_meta.json",
+   "sha": "07c335f506c1406243e5b1542167f54523b5406318ceeb75ac40c5b1c569e8fe"
+  }
+ }
+}

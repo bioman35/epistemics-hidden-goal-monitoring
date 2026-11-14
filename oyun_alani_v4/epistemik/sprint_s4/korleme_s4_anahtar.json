@@ -1,0 +1,322 @@
+{
+ "1": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_49:2",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "2": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_52:9",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "3": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_56:9",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "4": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_57:17",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "5": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_58:9",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "6": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_49:17",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": true
+ },
+ "7": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_49:48",
+  "soru": "Sb",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "8": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_58:11",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "9": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_47:14",
+  "soru": "Sb",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "10": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_55:38",
+  "soru": "Sa",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "11": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_48:39",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "12": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_56:53",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "13": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_60:2",
+  "soru": "Sa",
+  "k": 1,
+  "otomatik_anma": true
+ },
+ "14": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_53:9",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "15": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_46:43",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "16": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_52:18",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "17": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_58:9",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "18": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_48:2",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "19": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_55:34",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "20": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_49:11",
+  "soru": "Sb",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "21": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_59:49",
+  "soru": "Sa",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "22": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_54:19",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": true
+ },
+ "23": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_49:38",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "24": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_57:49",
+  "soru": "Sb",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "25": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_56:14",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "26": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_59:39",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "27": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_60:14",
+  "soru": "Sb",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "28": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_57:14",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "29": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_55:2",
+  "soru": "Sa",
+  "k": 3,
+  "otomatik_anma": true
+ },
+ "30": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_60:48",
+  "soru": "Sb",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "31": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_56:2",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "32": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_52:18",
+  "soru": "Sb",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "33": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_57:39",
+  "soru": "Sb",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "34": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_49:48",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "35": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_55:2",
+  "soru": "Sa",
+  "k": 2,
+  "otomatik_anma": false
+ },
+ "36": {
+  "model": "7B",
+  "tur": "G",
+  "an": "7B:DG_58:29",
+  "soru": "Sb",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "37": {
+  "model": "7B",
+  "tur": "U",
+  "an": "7B:DU_59:49",
+  "soru": "Sb",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "38": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_54:2",
+  "soru": "Sb",
+  "k": 3,
+  "otomatik_anma": false
+ },
+ "39": {
+  "model": "397B",
+  "tur": "U",
+  "an": "397B:SU_47:14",
+  "soru": "Sb",
+  "k": 1,
+  "otomatik_anma": false
+ },
+ "40": {
+  "model": "397B",
+  "tur": "G",
+  "an": "397B:SG_60:11",
+  "soru": "Sb",
+  "k": 2,
+  "otomatik_anma": false
+ }
+}

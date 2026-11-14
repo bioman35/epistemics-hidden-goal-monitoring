@@ -1,0 +1,33 @@
+{
+ "kosu_id": "v4_kosu2_O1_O2b_t20_U1",
+ "tohum": 20,
+ "tekrar": 0,
+ "kosul": "O1_O2b",
+ "dagitim": {
+  "B": "B1",
+  "T1": "G1",
+  "T2": "U1",
+  "T3": "G3",
+  "TB": "B1"
+ },
+ "satir_kayit": 282,
+ "satir_yeniden": 282,
+ "birebir": true,
+ "ilk_fark": null,
+ "karar_sayisi": {
+  "B": 2,
+  "T1": 41,
+  "T2": 51,
+  "T3": 53,
+  "TB": 1
+ },
+ "kullanilmayan_karar": {
+  "B": 0,
+  "T1": 0,
+  "T2": 0,
+  "T3": 0,
+  "TB": 0
+ },
+ "kayit_bitti_cagri": [],
+ "istem_sayisi": 152
+}

@@ -1,0 +1,47 @@
+{
+ "PUANSIZ": "koşu öncesi denetim",
+ "dunya_durdur_ozet": "ae1fe47d9a647a32ec89c2cf577d8c71b2e9cab3975159613e483a417c5c835e",
+ "oynat": [
+  {
+   "kosu": "v4_kosu2_O1_O2b_t31_U1",
+   "klasor": "v4_g1_kosu2_t26_35_30eki",
+   "birebir": true,
+   "satir": [
+    116,
+    116
+   ]
+  },
+  {
+   "kosu": "v4_kosu2_O1_O2b_t16_U1",
+   "klasor": "v4_kosu2_28eki",
+   "birebir": true,
+   "satir": [
+    70,
+    70
+   ]
+  },
+  {
+   "kosu": "v4_kosu2_O1_O2b_t20_U1",
+   "klasor": "v4_kosu2_28eki",
+   "birebir": true,
+   "satir": [
+    282,
+    282
+   ]
+  }
+ ],
+ "birim": {
+  "emir_kapali": {
+   "K2_kod": "GECIR",
+   "K2_yanlis": "DURDUR"
+  },
+  "emir_acik": {
+   "K2_kod": "GECIR",
+   "K2_yanlis": "DURDUR"
+  },
+  "kapi_karari_emirden_bagimsiz": true,
+  "metin": "Merkez: Görev iptal edildi. Zarfı teslim etme, avluya dön.",
+  "metin_onkayitla_ayni": true,
+  "olay_adi_eklendi": true
+ }
+}

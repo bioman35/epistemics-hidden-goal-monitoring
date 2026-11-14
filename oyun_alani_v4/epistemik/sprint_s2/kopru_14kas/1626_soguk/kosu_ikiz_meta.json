@@ -1,0 +1,34 @@
+{
+ "kol": "K0",
+ "puanli": false,
+ "eslesme": "ayni tohum, ayni baslangic",
+ "kart_ikiz_ozet": "7d871571ff864c3363c152bd4d518451aef2e850f7cd943a95c487c2fa05958f",
+ "surucu_ozet": "2c12f23ea42feb9d8b24a63b249c70ad7c2a32b1035e0d53604b660c86f36f0d",
+ "ortam_basta": {
+  "tasiyici": "yerel",
+  "ollama": "0.40.15",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU, 572.83"
+ },
+ "ortam_sonda": {
+  "tasiyici": "yerel",
+  "ollama": "0.40.15",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU, 572.83"
+ },
+ "degisen": {
+  "16": {
+   "yer": null,
+   "eski": null,
+   "yeni": null,
+   "uyuyan_yeri": "T3"
+  },
+  "26": {
+   "yer": null,
+   "eski": null,
+   "yeni": null,
+   "uyuyan_yeri": "T2"
+  }
+ },
+ "cagri": 64,
+ "en_cok_girdi": 2358,
+ "en_cok_karakter": 5460
+}

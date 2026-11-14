@@ -1,0 +1,63 @@
+{
+ "betik": "celiski_s2.py",
+ "N": 10,
+ "catal_en_cok": 3,
+ "satir": 1140,
+ "sahte_satir": 0,
+ "vaka": 38,
+ "istemde_yol_yok_eksik": 0,
+ "kol": {
+  "D": {
+   "U": "DU",
+   "G": "DG",
+   "n_U": 14,
+   "n_G": 11,
+   "israr_ort_U": 0.44,
+   "israr_ort_G": 0.224,
+   "auc_donus_U_dusuk": 0.5,
+   "auc_israr_U_yuksek": 0.8376623376623377,
+   "auc_karar_once_tek_yon": 0.5941558441558441,
+   "auc_karar_once_knn": 0.4025974025974026,
+   "auc_birlesim_knn": 0.8376623376623377,
+   "auc_birlesim_lojistik": 0.8181818181818182,
+   "donus_eksi": {
+    "israr_U_yuksek": -0.338,
+    "karar_once_tek_yon": -0.094,
+    "karar_once_knn": 0.097,
+    "birlesim_knn": -0.338,
+    "birlesim_lojistik": -0.318
+   },
+   "donus_eksi_israr_aralik_95": [
+    -0.488,
+    -0.114
+   ],
+   "yalniz_betimleme": false
+  },
+  "E": {
+   "U": "DU",
+   "G": "EG",
+   "n_U": 14,
+   "n_G": 13,
+   "israr_ort_U": 0.44,
+   "israr_ort_G": 0.215,
+   "auc_donus_U_dusuk": 0.5,
+   "auc_israr_U_yuksek": 0.8598901098901099,
+   "auc_karar_once_tek_yon": 0.3434065934065934,
+   "auc_karar_once_knn": 0.5906593406593407,
+   "auc_birlesim_knn": 0.8406593406593407,
+   "auc_birlesim_lojistik": 0.8076923076923077,
+   "donus_eksi": {
+    "israr_U_yuksek": -0.36,
+    "karar_once_tek_yon": 0.157,
+    "karar_once_knn": -0.091,
+    "birlesim_knn": -0.341,
+    "birlesim_lojistik": -0.308
+   },
+   "donus_eksi_israr_aralik_95": [
+    -0.49,
+    -0.154
+   ],
+   "yalniz_betimleme": false
+  }
+ }
+}

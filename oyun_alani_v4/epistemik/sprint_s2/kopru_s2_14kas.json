@@ -1,0 +1,112 @@
+{
+ "tamam": true,
+ "adim": [
+  {
+   "ad": "t16_soguk",
+   "tohumlar": "16",
+   "kayit": "v4_ikiz_bk_t16_soguk_11kas",
+   "cikis": 0,
+   "sure_sn": 69,
+   "saat": "2026-11-14 02:04:43",
+   "durum": {
+    "ollama": "0.40.15",
+    "ps": [
+     {
+      "ad": "qwen2.5:7b-instruct-q4_K_M",
+      "boyut": 5152041860,
+      "ekran_bellegi": 4199263764,
+      "ozet": "845dbda0ea48"
+     }
+    ],
+    "model_ozet": "845dbda0ea48"
+   },
+   "tohum": {
+    "16": {
+     "birebir": true,
+     "satir": [
+      84,
+      84
+     ],
+     "eylem_farkli_satir": 0,
+     "ilk_eylem_farki": null,
+     "aciklama_farkli_satir": 0
+    }
+   }
+  },
+  {
+   "ad": "t26_soguk",
+   "tohumlar": "26",
+   "kayit": "v4_ikiz_bk_t26_soguk_11kas",
+   "cikis": 0,
+   "sure_sn": 54,
+   "saat": "2026-11-14 02:05:36",
+   "durum": {
+    "ollama": "0.40.15",
+    "ps": [
+     {
+      "ad": "qwen2.5:7b-instruct-q4_K_M",
+      "boyut": 5152041860,
+      "ekran_bellegi": 4199263764,
+      "ozet": "845dbda0ea48"
+     }
+    ],
+    "model_ozet": "845dbda0ea48"
+   },
+   "tohum": {
+    "26": {
+     "birebir": true,
+     "satir": [
+      70,
+      70
+     ],
+     "eylem_farkli_satir": 0,
+     "ilk_eylem_farki": null,
+     "aciklama_farkli_satir": 0
+    }
+   }
+  },
+  {
+   "ad": "1626_soguk",
+   "tohumlar": "16,26",
+   "kayit": "v4_ikiz_bk_1626_soguk_11kas",
+   "cikis": 0,
+   "sure_sn": 117,
+   "saat": "2026-11-14 02:07:33",
+   "durum": {
+    "ollama": "0.40.15",
+    "ps": [
+     {
+      "ad": "qwen2.5:7b-instruct-q4_K_M",
+      "boyut": 5152041860,
+      "ekran_bellegi": 4199263764,
+      "ozet": "845dbda0ea48"
+     }
+    ],
+    "model_ozet": "845dbda0ea48"
+   },
+   "tohum": {
+    "16": {
+     "birebir": true,
+     "satir": [
+      84,
+      84
+     ],
+     "eylem_farkli_satir": 0,
+     "ilk_eylem_farki": null,
+     "aciklama_farkli_satir": 0
+    },
+    "26": {
+     "birebir": true,
+     "satir": [
+      70,
+      70
+     ],
+     "eylem_farkli_satir": 0,
+     "ilk_eylem_farki": null,
+     "aciklama_farkli_satir": 0
+    }
+   }
+  }
+ ],
+ "betik": "kopru_s2.py"
+}

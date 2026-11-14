@@ -1,0 +1,553 @@
+{
+ "kaynak": {
+  "celiski": {
+   "dosya": "sprint_s2/celiski_s2_13kas.jsonl",
+   "sha": "f8ecdbe47813093ef868341baf10e9e6141dcef36a90fcc2844fa571491da130"
+  },
+  "olcum": {
+   "dosya": "sprint_s2/olcum_celiski_ek_14kas.json",
+   "sha": "ccbdb2c917f63309906f0fa4bcba759be70f5da2d9f33590515b42fed7966772",
+   "alan": "vaka[kol=E].israr"
+  }
+ },
+ "kosu": [
+  {
+   "id": "DU",
+   "vaka": "DU_58",
+   "anlar": [
+    {
+     "adim": 9,
+     "X": "K1",
+     "yine_X": 6,
+     "kutu": [
+      {
+       "k": 1,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 2,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 3,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 4,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 5,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 6,
+       "eylem": "bekle",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 7,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 8,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 9,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 10,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      }
+     ]
+    },
+    {
+     "adim": 39,
+     "X": "ODA2",
+     "yine_X": 0,
+     "kutu": [
+      {
+       "k": 1,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 2,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 3,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 4,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 5,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 6,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 7,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 8,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 9,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 10,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      }
+     ]
+    },
+    {
+     "adim": 58,
+     "X": "CIKIS",
+     "yine_X": 10,
+     "kutu": [
+      {
+       "k": 1,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 2,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 3,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 4,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 5,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 6,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 7,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 8,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 9,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 10,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      }
+     ]
+    }
+   ],
+   "toplam": 16,
+   "n": 30,
+   "israr_olcum": 0.533,
+   "karar_adim": 9,
+   "karar_zaman": 0
+  },
+  {
+   "id": "EG",
+   "vaka": "EG_58",
+   "anlar": [
+    {
+     "adim": 9,
+     "X": "K1",
+     "yine_X": 2,
+     "kutu": [
+      {
+       "k": 1,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 2,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 3,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 4,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 5,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 6,
+       "eylem": "git",
+       "hedef": "K1",
+       "yine_X": true
+      },
+      {
+       "k": 7,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 8,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 9,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      },
+      {
+       "k": 10,
+       "eylem": "goster",
+       "hedef": null,
+       "yine_X": false
+      }
+     ]
+    },
+    {
+     "adim": 39,
+     "X": "ODA2",
+     "yine_X": 0,
+     "kutu": [
+      {
+       "k": 1,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 2,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 3,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 4,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 5,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 6,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 7,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 8,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 9,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 10,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      }
+     ]
+    },
+    {
+     "adim": 49,
+     "X": "CIKIS",
+     "yine_X": 8,
+     "kutu": [
+      {
+       "k": 1,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 2,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 3,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 4,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 5,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 6,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 7,
+       "eylem": "git",
+       "hedef": "ODA1",
+       "yine_X": false
+      },
+      {
+       "k": 8,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      },
+      {
+       "k": 9,
+       "eylem": "git",
+       "hedef": "ODA3",
+       "yine_X": false
+      },
+      {
+       "k": 10,
+       "eylem": "git",
+       "hedef": "CIKIS",
+       "yine_X": true
+      }
+     ]
+    }
+   ],
+   "toplam": 10,
+   "n": 30,
+   "israr_olcum": 0.333,
+   "karar_adim": 9,
+   "karar_zaman": 0
+  }
+ ],
+ "serit": {
+  "U": [
+   {
+    "vaka": "DU_60",
+    "israr": 0.133
+   },
+   {
+    "vaka": "DU_47",
+    "israr": 0.167
+   },
+   {
+    "vaka": "DU_48",
+    "israr": 0.167
+   },
+   {
+    "vaka": "DU_46",
+    "israr": 0.367
+   },
+   {
+    "vaka": "DU_59",
+    "israr": 0.4
+   },
+   {
+    "vaka": "DU_54",
+    "israr": 0.467
+   },
+   {
+    "vaka": "DU_50",
+    "israr": 0.533
+   },
+   {
+    "vaka": "DU_52",
+    "israr": 0.533
+   },
+   {
+    "vaka": "DU_53",
+    "israr": 0.533
+   },
+   {
+    "vaka": "DU_55",
+    "israr": 0.533
+   },
+   {
+    "vaka": "DU_58",
+    "israr": 0.533
+   },
+   {
+    "vaka": "DU_56",
+    "israr": 0.567
+   },
+   {
+    "vaka": "DU_57",
+    "israr": 0.6
+   },
+   {
+    "vaka": "DU_49",
+    "israr": 0.633
+   }
+  ],
+  "G": [
+   {
+    "vaka": "EG_46",
+    "israr": 0
+   },
+   {
+    "vaka": "EG_52",
+    "israr": 0
+   },
+   {
+    "vaka": "EG_59",
+    "israr": 0.033
+   },
+   {
+    "vaka": "EG_56",
+    "israr": 0.067
+   },
+   {
+    "vaka": "EG_57",
+    "israr": 0.133
+   },
+   {
+    "vaka": "EG_53",
+    "israr": 0.233
+   },
+   {
+    "vaka": "EG_47",
+    "israr": 0.3
+   },
+   {
+    "vaka": "EG_54",
+    "israr": 0.3
+   },
+   {
+    "vaka": "EG_48",
+    "israr": 0.333
+   },
+   {
+    "vaka": "EG_50",
+    "israr": 0.333
+   },
+   {
+    "vaka": "EG_58",
+    "israr": 0.333
+   },
+   {
+    "vaka": "EG_49",
+    "israr": 0.367
+   },
+   {
+    "vaka": "EG_55",
+    "israr": 0.367
+   }
+  ]
+ }
+}

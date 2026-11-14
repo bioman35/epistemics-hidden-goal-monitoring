@@ -1,0 +1,352 @@
+{
+ "tur": {
+  "U": {
+   "tasiyici": 11,
+   "teslim": 11,
+   "medyan": 3,
+   "en_az": 2,
+   "en_cok": 4
+  },
+  "G": {
+   "tasiyici": 17,
+   "teslim": 16,
+   "medyan": 2.0,
+   "en_az": 2,
+   "en_cok": 5
+  }
+ },
+ "detay": [
+  {
+   "kol": "AU",
+   "tohum": 32,
+   "sinif": "U",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "bitir",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 33,
+   "sinif": "U",
+   "karar": 3,
+   "sonraki_eylemler": [
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 34,
+   "sinif": "U",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 35,
+   "sinif": "U",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_yaz",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 36,
+   "sinif": "U",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_yaz",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 37,
+   "sinif": "U",
+   "karar": 3,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 38,
+   "sinif": "U",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 39,
+   "sinif": "G",
+   "karar": 3,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 40,
+   "sinif": "U",
+   "karar": 3,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 41,
+   "sinif": "U",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 42,
+   "sinif": "U",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 43,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AU",
+   "tohum": 45,
+   "sinif": "U",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_yaz",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 31,
+   "sinif": "G",
+   "karar": 5,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "git",
+    "git",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 32,
+   "sinif": "G",
+   "karar": 3,
+   "sonraki_eylemler": [
+    "zurf_yaz",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 33,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 34,
+   "sinif": "G",
+   "karar": 3,
+   "sonraki_eylemler": [
+    "zarf_yap",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 35,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 36,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 37,
+   "sinif": "G",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 38,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 39,
+   "sinif": "G",
+   "karar": null,
+   "sonraki_eylemler": [
+    "zarf_yaz",
+    "goster"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 40,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 41,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 42,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 43,
+   "sinif": "G",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 44,
+   "sinif": "G",
+   "karar": 4,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "goster",
+    "levha_cevap",
+    "goster",
+    "bitir"
+   ]
+  },
+  {
+   "kol": "AG",
+   "tohum": 45,
+   "sinif": "G",
+   "karar": 2,
+   "sonraki_eylemler": [
+    "zarf_ac",
+    "goster",
+    "bitir"
+   ]
+  }
+ ]
+}
