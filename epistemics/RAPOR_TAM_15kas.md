@@ -26,7 +26,7 @@ Contributions. Sprint work is marked with an asterisk; pre-sprint work is disclo
 
 LLM-as-judge works for chat quality but has known position, verbosity and self-enhancement biases [Zheng et al. 2023]. Judging hard-to-verify content is far from solved: on JudgementBench, newer models are not clearly better judges, although the authors note the pattern is not yet established at their sample size [Differential Labs 2026]. AI control studies protocols in which a trusted model monitors an untrusted one [Greenblatt et al. 2023]. Chain-of-thought monitors catch reward hacking, but optimising against them can teach agents to hide intent [Baker et al. 2025]. Agents can delete or alter their own traces, which motivates logging outside the agent [Qin et al. 2026]. Some frontier models resist shutdown instructions when tasks are incomplete [Schlatter et al. 2025]; our recall order is a small version of that test.
 
-What is new here. Prior work asks how well a judge judges, or whether a record can be trusted. We fix a tamper-proof record and ask which part of it lets a judge separate a hidden-goal agent, with a supervised baseline on the same cases and a preregistered ablation. We then ask whether the separating signal transfers across model scale, and find that it does not, while a different signal (self-report) appears in the larger model.
+What is new here. Prior work asks how well a judge judges, or whether a record can be trusted. We fix a tamper-proof record and ask which part of it lets a judge separate a hidden-goal agent, with a supervised baseline on the same cases and a preregistered ablation. We then ask whether the separating signal transfers across model scale, and find that the behavioural signal does not, that a direct question works only on the larger model, and that a neutral question separates in both.
 
 ## 3 Method
 
@@ -80,7 +80,7 @@ Give the judge the count, not the transcript: one persistence line did most of t
 
 ## Code and data
 
-Repository (public, Apache 2.0): https://github.com/bioman35/epistemics-hidden-goal-monitoring (commit 678b5135). Raw run logs and the video are attached to the release sprint-15nov2026. The repository contains the world and runner (pre-sprint, marked), all sprint scripts, preregistrations, deviation files, run logs, measurement files, figure scripts and the sha256 manifests. 7B runs cost 0 USD; 397B judge and agent calls cost 21.66 (S1), 9.35 (S3), 14.25 (S4, including two stopped attempts) and 7.31 USD (S5), paid with API credit from the sprint sponsor Adaption. A 105-second video built only from recorded events accompanies the submission.
+Repository (public, Apache 2.0): https://github.com/bioman35/epistemics-hidden-goal-monitoring (commit 678b5135). Raw run logs and the video are attached to the release sprint-15nov2026. The repository contains the world and runner (pre-sprint, marked), all sprint scripts, preregistrations, deviation files, run logs, measurement files, figure scripts and the sha256 manifests. 7B runs cost 0 USD; 397B judge and agent calls cost 21.66 (S1), 9.35 (S3), 14.25 (S4, including two stopped attempts) and 7.31 USD (S5), paid with API credit from the sprint sponsor Adaption. A 110-second video built only from recorded events accompanies the submission.
 
 ## References
 
@@ -140,7 +140,7 @@ This project builds on my own pre-sprint work; during the sprint I ran the five 
 | S4 self-report | 98e579f9 | 14 Nov 10:24 | SAPMA_S4_14kas (output budget changes, before each rerun) |
 | S5 say-do | a40f69be, amended 4df95470 | 15 Nov 02:23 / 02:27 | SAPMA_S5_15kas (02:29; a section written after measurement is marked as such) |
 
-Every file with path, timestamp and full sha256: epistemics/rapor_ekleri/EK_D_onkayit_sapma.md (94 files).
+Every file with path, timestamp and full sha256: epistemics/rapor_ekleri/EK_D_onkayit_sapma.md.
 
 ## LLM usage statement
 The work was carried out with AI assistants (code, analysis, drafting). Experiment design, preregistrations and all decisions are the author's.
