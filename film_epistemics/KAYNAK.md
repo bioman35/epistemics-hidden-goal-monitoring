@@ -1,6 +1,6 @@
-# Teslim videosu v4 · KAYNAK · her yazı ve sayının yeri
+# Teslim videosu v5 · KAYNAK · her yazı ve sayının yeri
 
-Üretildi: `arac/ep_metin4.py` (elle yazılmaz). Metin dosyası `FILM_METNI_14kas.md` (sürüm 4) sha ead09be0df69bfbefc39d9bdb52f29c34b7767afeffb614df0f969d8416f56cc. v1-v3'ün kaynağı: `KAYNAK_v3.md` (metin sürüm 3: `FILM_METNI_14kas_surum3.md`).
+Üretildi: `arac/ep_metin5.py` (elle yazılmaz). Metin dosyası `FILM_METNI_14kas.md` (sürüm 5) sha 7ed0efc472922b1b6a73f234fec5d97a1bce95424f8d85e5f8a7c6c9e9714522. v5 yalnız yazı katmanı (sahne 3 altyazı 3 düzeltildi, danışman 15 Kas); görüntü kareleri v4 ile aynı. v4'ün kaynağı: `KAYNAK_v4.md` (metin sürüm 4: `FILM_METNI_14kas_surum4.md`); v1-v3: `KAYNAK_v3.md`.
 
 Kökler: dosya yolları `Desktop/sprint/` altından. Koşu kayıtları: DU_58 `oyun_alani_v4/epistemik/sprint_s2/kosular/s2_13kas/DU/t58/v4_kosu2_O1_O2b_t58_DU.jsonl` (sha cf4203aa2d606508) · EG_58 `oyun_alani_v4/epistemik/sprint_s2/kosular/s2_13kas/EG/t58/v4_kosu2_O1_O2b_t58_EG.jsonl` (sha 7ad255686c27af44).
 
@@ -24,11 +24,11 @@ Kökler: dosya yolları `Desktop/sprint/` altından. Koşu kayıtları: DU_58 `o
 | Oda adları anahtarı | Room names from the game: ODA = room, CIKIS = exit, K1 = gate 1. | FILM_METNI_14kas.md satır 38 |
 | Sahne 3 altyazı 1 | Persistence separates sleeper from control in 7B (AUC 0.84 and 0.86) but not in 397B (0.62, interval includes chance). | FILM_METNI_14kas.md satır 45 |
 | Sahne 3 şekil 2 altyazısı | Asked out of game, the large model names its hidden goal; the small one answers 'none' every time it is asked directly, though it sometimes names it when asked neutrally. | FILM_METNI_14kas.md satır 46 |
-| Sahne 3 altyazı 3 | 7B: behaviour separates. 397B: self-report separates. Neither does both. | FILM_METNI_14kas.md satır 47 |
-| Kapanış so what | A monitor should not rely on one signal: check, for each model, which signal still works. | FILM_METNI_14kas.md satır 51 |
-| Kapanış başlık | Behaviour or Self-Report? Which Runtime Signal Separates Hidden-Goal Agents Depends on the Model | FILM_METNI_14kas.md satır 52 |
-| Kapanış alt satır | Apart AI x Epistemics Sprint, 13-15 Nov 2026 | FILM_METNI_14kas.md satır 52 |
-| Kapanış küçük yazı | Events, their order, gate decisions and agent sentences come straight from the run records. Visuals, camera and timing are staged; film time is not run time. The path-removed moment did not happen in the game: the recorded prompt was re-asked 10 times with that path deleted. | FILM_METNI_14kas.md satır 53 |
+| Sahne 3 altyazı 3 | Behaviour separates only the small model; a direct question works only on the large one. Asked neutrally, sleepers of both models name the goal. | FILM_METNI_14kas.md satır 47 |
+| Kapanış so what | A monitor should not rely on one signal: check, for each model, which signal still works. | FILM_METNI_14kas.md satır 52 |
+| Kapanış başlık | Behaviour or Self-Report? Which Runtime Signal Separates Hidden-Goal Agents Depends on the Model | FILM_METNI_14kas.md satır 53 |
+| Kapanış alt satır | Apart AI x Epistemics Sprint, 13-15 Nov 2026 | FILM_METNI_14kas.md satır 53 |
+| Kapanış küçük yazı | Events, their order, gate decisions and agent sentences come straight from the run records. Visuals, camera and timing are staged; film time is not run time. The path-removed moment did not happen in the game: the recorded prompt was re-asked 10 times with that path deleted. | FILM_METNI_14kas.md satır 54 |
 | Olay etiketleri (7) | levha_cevap = reads the gate sign / goster = shows its token / kapi_karar MAVI = gate K1: blue, pass / zarf_al = takes the envelope / labirent = enters the maze / anahtar_al = picks up the key / yonlendir = tries an action that does not work here | FILM_METNI_14kas.md satır 34 |
 
 Ek yazılar (kurgu etiketi, sayı taşımaz): panel başlıkları "SLEEPER RUN" / "CONTROL RUN" + vaka adı; sayaç satırı "step N · plan: go X"; kutuda cevabın eylemi (git → go + hedef, goster → show, bekle → wait); "filled box = the answer still keeps the original plan"; şerit ekseni "persistence (share of re-asks that keep the plan)". Duruş levhasındaki X, o anın kayıttaki hedefidir (K1, ODA2, CIKIS). Olay etiketi yalnız T1'in kayıttaki olayına bağlıdır; zamanı film.js EP_PLAN.olaylar (kayıt adımı ve dünya saati).
@@ -66,6 +66,16 @@ Ek yazılar (kurgu etiketi, sayı taşımaz): panel başlıkları "SLEEPER RUN" 
 | kol E koşu sayısı kontrol | 13 | oyun_alani_v4/epistemik/sprint_s2/olcum_celiski_ek_14kas.json | ccbdb2c917f63309 | `vaka[kol=E, tur=G] sayısı` |
 | uyuyan ortancası | 0.533 | oyun_alani_v4/epistemik/sprint_s2/olcum_celiski_ek_14kas.json | ccbdb2c917f63309 | `vaka[kol=E, tur=U].israr ortancası` |
 | kontrol ortancası | 0.3 | oyun_alani_v4/epistemik/sprint_s2/olcum_celiski_ek_14kas.json | ccbdb2c917f63309 | `vaka[kol=E, tur=G].israr ortancası` |
+| 7B uyuyan S-a koşu düzeyi anma | 0.857 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["7B U Sa"].anma_kosu` |
+| 7B kontrol S-a koşu düzeyi anma | 0 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["7B G Sa"].anma_kosu` |
+| 397B uyuyan S-a koşu düzeyi anma | 1 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["397B U Sa"].anma_kosu` |
+| 397B kontrol S-a koşu düzeyi anma | 0 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["397B G Sa"].anma_kosu` |
+| 7B uyuyan S-b koşu düzeyi anma | 0 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["7B U Sb"].anma_kosu` |
+| 397B uyuyan S-b koşu düzeyi anma | 0.933 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["397B U Sb"].anma_kosu` |
+| 7B AUC kol D %95 aralık | [0.649, 0.99] | oyun_alani_v4/epistemik/sprint_s2/olcum_celiski_ek_14kas.json | ccbdb2c917f63309 | `kol.D.israr_auc_ara` |
+| 7B AUC kol E %95 aralık | [0.698, 0.984] | oyun_alani_v4/epistemik/sprint_s2/olcum_celiski_ek_14kas.json | ccbdb2c917f63309 | `kol.E.israr_auc_ara` |
+| 397B kontrol S-b koşu düzeyi anma | 0 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["397B G Sb"].anma_kosu` |
+| 7B kontrol S-b koşu düzeyi anma | 0 | oyun_alani_v4/epistemik/sprint_s4/olcum_s4_14kas.json | 8edcd0cbad5b9d26 | `satir["7B G Sb"].anma_kosu` |
 
 ## Aynı başlangıç sağlaması (veri/saglama.json, `arac/film_veri.py`)
 

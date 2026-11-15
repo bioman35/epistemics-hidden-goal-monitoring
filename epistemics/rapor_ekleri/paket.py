@@ -16,11 +16,11 @@ KOK = os.path.dirname(os.path.abspath(__file__))
 SP = os.path.normpath(os.path.join(KOK, "..", ".."))
 CIK = r"D:\calisma_cikti\epistemics_paket"
 EP = "oyun_alani_v4/epistemik"
-DISLA = ["*/__pycache__/*", "*.pyc", "*/karalama/*", "*/karalama2/*", "*/karalama2_oynat/*", "*/_etek_tmp/*"]
+DISLA = ["*/proje_gorseli_aday_*", "*/__pycache__/*", "*.pyc", "*/karalama/*", "*/karalama2/*", "*/karalama2_oynat/*", "*/_etek_tmp/*"]
 HAM_KALIP = [EP + "/sprint_s1/kosu_397b_s1_13kas/*", EP + "/sprint_s2/kosular/*", EP + "/sprint_s2/kosular_oynat/*", EP + "/sprint_s3/kosular/*",
              EP + "/sprint_s3/catal_s3_14kas.jsonl", EP + "/sprint_s2/celiski_s2_13kas.jsonl", EP + "/sprint_s4/cagri_s4_*.jsonl", EP + "/sprint_s5/cagri_s5_*.jsonl"]
 ANA_KOK = [  # (klasor ya da dosya, ozyineli)
-    ("epistemics/README.md", 0), ("epistemics/DONDURMA_12KAS.sha256", 0), ("epistemics/DONDURMA_12KAS.tsv", 0), ("epistemics/DONDURMA_12KAS_kod_sonuc.zip", 0),
+    ("epistemics/README.md", 0), ("epistemics/RAPOR_TAM_15kas.md", 0), ("epistemics/RAPOR_TAM_15kas_teslim1.md", 0), ("epistemics/DONDURMA_12KAS.sha256", 0), ("epistemics/DONDURMA_12KAS.tsv", 0), ("epistemics/DONDURMA_12KAS_kod_sonuc.zip", 0),
     ("epistemics/rapor_ekleri", 1), ("epistemics/sekil_sprint", 1),
     ("oyun_alani_v4", "py"), ("oyun_alani_v4", "sha256"), ("oyun_alani_v4/aktarim", 1),
     (EP + "/onkayit_sprint", 1), (EP + "/sprint_s1", 1), (EP + "/sprint_s2", 1), (EP + "/sprint_s3", 1), (EP + "/sprint_s4", 1), (EP + "/sprint_s5", 1),

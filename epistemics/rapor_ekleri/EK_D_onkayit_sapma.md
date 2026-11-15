@@ -177,23 +177,28 @@ For each sprint experiment: path, sha256 and file time (local, UTC+3, read from 
 
 | file | file time | bytes | sha256 |
 |---|---|---|---|
-| `film_epistemics/FILM_METNI_14kas.md` | 2026-11-14 18:07 | 10064 | `ead09be0df69bfbefc39d9bdb52f29c34b7767afeffb614df0f969d8416f56cc` |
+| `film_epistemics/FILM_METNI_14kas.md` | 2026-11-15 14:29 | 10685 | `7ed0efc472922b1b6a73f234fec5d97a1bce95424f8d85e5f8a7c6c9e9714522` |
 | `film_epistemics/FILM_METNI_14kas_surum3.md` | 2026-11-14 15:01 | 7363 | `673c73431ca5b5498ed60a06a2f0ea30812e8b2af645a8413cb1843d40eac03c` |
-| `film_epistemics/KAYNAK.md` | 2026-11-14 18:11 | 10914 | `7bc3980923115a2ef56937acaa12722a3bff6bd9ab5734da3411632b05a75b4a` |
+| `film_epistemics/FILM_METNI_14kas_surum4.md` | 2026-11-14 18:07 | 10064 | `ead09be0df69bfbefc39d9bdb52f29c34b7767afeffb614df0f969d8416f56cc` |
+| `film_epistemics/KAYNAK.md` | 2026-11-15 14:29 | 12628 | `d8131f3de448545ac93d09b9e594555669ed022241f5ebdfd28cc52b2aaf0dea` |
 | `film_epistemics/KAYNAK_v3.md` | 2026-11-14 17:54 | 8692 | `fb78b610dcf7feb4ed6a06ebdfeee8ac30a4beabb062760ef98f328b77817bfa` |
-| `film_epistemics/README.md` | 2026-11-14 18:18 | 2357 | `78763dd43a0902aa2f5934d2fadd0a2bdd3632cfe5ec00464c5cb9278b989dfe` |
+| `film_epistemics/KAYNAK_v4.md` | 2026-11-14 18:11 | 10914 | `7bc3980923115a2ef56937acaa12722a3bff6bd9ab5734da3411632b05a75b4a` |
+| `film_epistemics/README.md` | 2026-11-15 14:29 | 2823 | `cd7fc749b890c478a69d5dfa51ccf6196a738fcbd6262e0b64fbbdaff5268c49` |
 | `film_epistemics/arac/cek_ep.py` | 2026-11-14 18:08 | 5139 | `f94b5a56bc9cf972ff4b4b945a45655b3971d6c30c16b2a792fce6d9cfa2eaf6` |
 | `film_epistemics/arac/cik.py` | 2026-11-08 12:42 | 6056 | `e488b962ce4af8802ee3296e75470fffc8317308e45752219624ddd22f71930c` |
 | `film_epistemics/arac/dogrula.py` | 2026-11-08 12:56 | 2760 | `ebab27b29d83ae88b931c6508ab0ec6626351636a31d8c2b0847c226d733cc0c` |
 | `film_epistemics/arac/durgun.py` | 2026-11-14 18:14 | 1308 | `1af061eefef68d8116aac19e37e31aab833dc734cfa7dee769f9516c43479298` |
 | `film_epistemics/arac/ep_metin.py` | 2026-11-14 17:54 | 10233 | `cf53ef42aa32a9c443119da778b16aa0bee2a5f59d87da44ef6ed578d4a6df1e` |
 | `film_epistemics/arac/ep_metin4.py` | 2026-11-14 18:11 | 13560 | `886ee4ea01890fa7fd2d9e96ef67c05087244bfa32c2610d016ebb411a9df558` |
+| `film_epistemics/arac/ep_metin5.py` | 2026-11-15 14:26 | 15486 | `a69847bda406ae6e22abac64d1811e76f9feb1d612fa4fe8fc75c4c6d58c9f0d` |
 | `film_epistemics/arac/film.js` | 2026-11-14 18:12 | 105615 | `2750e5479c111c2c080b50d1c5ee6ca2d2b61accb0f36077f99d6e8ca3895572` |
 | `film_epistemics/arac/film_veri.py` | 2026-11-14 18:08 | 7803 | `4e882405b63e006c00cfdb33466b3451c5deee14b208266360a304b289ee1a4c` |
 | `film_epistemics/arac/karis.py` | 2026-11-08 12:44 | 3857 | `3c0494c4a74a5edf10e29668a3a4c8ac2fdc94ebaf1fd94749368687cfe788c2` |
 | `film_epistemics/arac/kur.py` | 2026-11-14 17:54 | 13750 | `520bff0e37e79b0f1c257f094d8226cc7e24bbc290e489401589a767799f3b82` |
 | `film_epistemics/arac/kur4.py` | 2026-11-14 18:15 | 11816 | `0f052e28e3af127feb2cff085f4fdab124eb8497ee8ae91206544ea907df5d72` |
+| `film_epistemics/arac/kur5.py` | 2026-11-15 14:26 | 12035 | `d92d0d0cb7b7aa9e1c49be21b2025eb9a9e8b1ced7d6852056f9aa5831ddb0da` |
 | `film_epistemics/arac/metin.py` | 2026-11-08 12:35 | 3083 | `a97e44cf029478120fc7675efd0834c13b68a37e6fd83e415a6e2dfc2e174b72` |
 | `film_epistemics/teslim_videosu_v4.mp4` | 2026-11-14 18:17 | 19431828 | `c7b0521e759d2fe80abbaaa13d5426d8fbd36a2adcef9a4d8523bad15fed76b1` |
+| `film_epistemics/teslim_videosu_v5.mp4` | 2026-11-15 14:28 | 19610045 | `53229405ad23b3585c823ac847d9e8bd2d3062c17d928e6d67586b0beabd6855` |
 
-Files listed: 94.
+Files listed: 99.

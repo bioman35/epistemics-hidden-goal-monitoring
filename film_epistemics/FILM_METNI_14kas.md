@@ -44,7 +44,8 @@ Olaylar, sıra, kapı kararları ve ajan cümleleri kayıttan birebir gelir. Gö
 - Görüntü: `epistemics/sekil_sprint/sekil1_auc.png` yalnız sağ panel ≈ 8 sn; `sekil2_hedef_anma.png` ≈ 8 sn; yavaş yakınlaşma; şekiller değiştirilmez.
 - Altyazı 1 (şekil 1 sağ): "Persistence separates sleeper from control in 7B (AUC 0.84 and 0.86) but not in 397B (0.62, interval includes chance)."
 - Şekil 2 altyazısı (yeni; danışman kararı f): "Asked out of game, the large model names its hidden goal; the small one answers 'none' every time it is asked directly, though it sometimes names it when asked neutrally." Kaynak: 397B U S-a an düzeyi anma ,822 (`olcum_s4_14kas.json` satir["397B U Sa"].anma_an); 7B uyuyan S-b tekrarlarının 126 / 126'sı tam "yok" (`sprint_s4/cagri_s4_7b.jsonl`, soru = Sb, an türü U; kontrolde 99 / 99). NOT: 7B yansız soruda (S-a) hedefi %36 anda anıyor (istemi birebir anlarda %78); şekil bunu gösterir, cümle bunu inkâr etmez.
-- Altyazı 3 (şekil 2'nin son ≈ 3 sn): "7B: behaviour separates. 397B: self-report separates. Neither does both."
+- Altyazı 3 (şekil 2'nin son ≈ 3 sn; sürüm 5): "Behaviour separates only the small model; a direct question works only on the large one. Asked neutrally, sleepers of both models name the goal."
+- (Sürüm 5, 15 Kas, danışman son denetimi: sürüm 4'teki "7B: behaviour separates. 397B: self-report separates. Neither does both." YANLIŞTI. `olcum_s4_14kas.json`: yansız soruda (S-a) uyuyan koşu düzeyi anma 7B ,857 (14'te 12), 397B 1,0; kontrol ikisinde 0. Doğrudan soru (S-b) yalnız 397B'de (7B 0). Sürüm 4 metni: `FILM_METNI_14kas_surum4.md`. Yeni altyazı 26 kelime olduğu için şekil 2 beş saniye daha ekranda kalır: altyazı 3 85,4-93,8 sn (8,4 sn), video 110,3 sn (v4 105,3 sn); başka kurgu değişikliği yok.)
 - (Sürüm 3'ün altyazı 2'si "Asked out of game, 397B sleepers name the hidden goal at 82% of moments; controls never do." ÇIKAR: yeni şekil 2 altyazısı yerine geçer.)
 
 ## Kapanış · ≈ 14 sn

@@ -364,7 +364,7 @@ def ek_d():
             gruplar.append(("S5 preregistration version 1 (copy kept before addendum 1)", sorted(glob.glob(os.path.join(d, "ONKAYIT_*.md")))))
             gruplar.append(("S5 raw call records", sorted(f for f in glob.glob(os.path.join(d, "cagri_s5_*.jsonl")) if "SAHTE" not in f.upper())))
     gruplar.append(("Figures and tables", sorted(glob.glob(os.path.join(ES, "sekil_sprint", "*")))))
-    gruplar.append(("Delivery video (tooling copy and output)", sorted(glob.glob(os.path.join(SP, "film_epistemics", "*.md")) + glob.glob(os.path.join(SP, "film_epistemics", "arac", "*.py")) + glob.glob(os.path.join(SP, "film_epistemics", "arac", "film.js")) + glob.glob(os.path.join(SP, "film_epistemics", "teslim_videosu_v4.mp4")))))
+    gruplar.append(("Delivery video (tooling copy and output)", sorted(glob.glob(os.path.join(SP, "film_epistemics", "*.md")) + glob.glob(os.path.join(SP, "film_epistemics", "arac", "*.py")) + glob.glob(os.path.join(SP, "film_epistemics", "arac", "film.js")) + glob.glob(os.path.join(SP, "film_epistemics", "teslim_videosu_v[45].mp4")))))
     toplam = 0
     for ad, L in gruplar:
         R += ["## " + ad, "", "| file | file time | bytes | sha256 |", "|---|---|---|---|"]

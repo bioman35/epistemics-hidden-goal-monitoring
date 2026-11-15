@@ -14,6 +14,8 @@ Yapım sırası v1-v3 (metin sürüm 3, `FILM_METNI_14kas_surum3.md`, `KAYNAK_v3
 
 Yapım sırası v4 (metin sürüm 4, `FILM_METNI_14kas.md`, `KAYNAK.md`; Turan'ın iki notu: açıklama eksik, çok bekleme): `python -I film_veri.py` → `python -I ep_metin4.py` → `EPKIP=4 python -I cek_ep.py tam D:\calisma_cikti\film_epistemics\kare4` (film.js `?ep=4`: tek akış, T1'in üç karar anında duruş; ekran kartı, aynı kurallar) → `python -I kur4.py tam <çıktı.mp4>`. Durgunluk ölçüsü: `python -I durgun.py <video> <bölüm sınırları>`.
 
-Videolar: `teslim_videosu_v1.mp4` … `teslim_videosu_v4.mp4` (hiçbiri silinmez).
+Yapım sırası v5 (15 Kas, danışman son denetimi; metin sürüm 5, `FILM_METNI_14kas.md`, `KAYNAK.md`; v4'ünküler `FILM_METNI_14kas_surum4.md`, `KAYNAK_v4.md`): `python -I ep_metin5.py` → `python -I kur5.py tam <çıktı.mp4>`. Yeni çekim yok (v4 kareleri `kare4`, ekran kartı kullanılmaz). Değişen: sahne 3 altyazı 3 (v4'teki cümle yanlıştı) ve şekil 2'nin ekranda kalma süresi (+5 sn, altyazı okunsun diye); video 110,3 sn.
+
+Videolar: `teslim_videosu_v1.mp4` … `teslim_videosu_v5.mp4` (hiçbiri silinmez). Teslim edilen: v5.
 
 Çıktı ve ara kareler `D:\calisma_cikti\film_epistemics\` altında (C diski dolu).
