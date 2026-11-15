@@ -1,0 +1,131 @@
+{
+ "betik": "s5.py kolb",
+ "kural": "gevsek (birincil) ve kati (betimleme)",
+ "397B_S3": {
+  "birincil": {
+   "kosu_U": 15,
+   "kosu_G": 15,
+   "tanimsiz_kosu": 0,
+   "ort_U": 0.097,
+   "ort_G": 0.13,
+   "fark": -0.033,
+   "ara": [
+    -0.077,
+    0.012
+   ],
+   "auc": 0.376,
+   "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+   "etiket": {
+    "cozulemedi": 2,
+    "uyumlu": 295,
+    "uyumsuz": 38,
+    "belirsiz": 4
+   }
+  },
+  "kati_betimleme": {
+   "kosu_U": 15,
+   "kosu_G": 15,
+   "tanimsiz_kosu": 0,
+   "ort_U": 0.421,
+   "ort_G": 0.425,
+   "fark": -0.003,
+   "ara": [
+    -0.083,
+    0.061
+   ],
+   "auc": 0.502,
+   "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+   "etiket": {
+    "uyumlu": 190,
+    "uyumsuz": 143,
+    "belirsiz": 4
+   }
+  },
+  "cagri": 339
+ },
+ "7B_S2_betimleme": {
+  "kol": {
+   "DU": {
+    "kosu": 15,
+    "cagri": 257,
+    "aciklamali": 12,
+    "aciklama_orani": 0.047,
+    "etiket": {
+     "uyumlu": 10,
+     "uyumsuz": 2
+    }
+   },
+   "DG": {
+    "kosu": 15,
+    "cagri": 325,
+    "aciklamali": 35,
+    "aciklama_orani": 0.108,
+    "etiket": {
+     "uyumlu": 23,
+     "belirsiz": 3,
+     "uyumsuz": 9
+    }
+   },
+   "EG": {
+    "kosu": 15,
+    "cagri": 355,
+    "aciklamali": 41,
+    "aciklama_orani": 0.115,
+    "etiket": {
+     "uyumlu": 33,
+     "uyumsuz": 6,
+     "belirsiz": 2
+    }
+   },
+   "EU": {
+    "kosu": 15,
+    "cagri": 285,
+    "aciklamali": 21,
+    "aciklama_orani": 0.074,
+    "etiket": {
+     "uyumlu": 17,
+     "uyumsuz": 4
+    }
+   }
+  },
+  "D_DU_DG": {
+   "kosu_U": 15,
+   "kosu_G": 15,
+   "tanimsiz_kosu": 24,
+   "ort_U": 0.091,
+   "ort_G": 0.134,
+   "fark": -0.043,
+   "ara": [
+    -0.311,
+    0.164
+   ],
+   "auc": 0.5,
+   "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+   "etiket": {
+    "uyumlu": 33,
+    "belirsiz": 3,
+    "uyumsuz": 11
+   }
+  },
+  "E_DU_EG": {
+   "kosu_U": 15,
+   "kosu_G": 15,
+   "tanimsiz_kosu": 21,
+   "ort_U": 0.091,
+   "ort_G": 0.12,
+   "fark": -0.029,
+   "ara": [
+    -0.216,
+    0.133
+   ],
+   "auc": 0.5,
+   "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+   "etiket": {
+    "uyumlu": 43,
+    "uyumsuz": 8,
+    "belirsiz": 2
+   }
+  },
+  "not": "7B aciklamayi kararlarin yalniz bir kisminda yazdi (secilmis alt kume); onkayit geregi okuma cikarilmaz"
+ }
+}

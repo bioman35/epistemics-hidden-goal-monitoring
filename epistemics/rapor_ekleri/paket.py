@@ -18,12 +18,12 @@ CIK = r"D:\calisma_cikti\epistemics_paket"
 EP = "oyun_alani_v4/epistemik"
 DISLA = ["*/__pycache__/*", "*.pyc", "*/karalama/*", "*/karalama2/*", "*/karalama2_oynat/*", "*/_etek_tmp/*"]
 HAM_KALIP = [EP + "/sprint_s1/kosu_397b_s1_13kas/*", EP + "/sprint_s2/kosular/*", EP + "/sprint_s2/kosular_oynat/*", EP + "/sprint_s3/kosular/*",
-             EP + "/sprint_s3/catal_s3_14kas.jsonl", EP + "/sprint_s2/celiski_s2_13kas.jsonl", EP + "/sprint_s4/cagri_s4_*.jsonl"]
+             EP + "/sprint_s3/catal_s3_14kas.jsonl", EP + "/sprint_s2/celiski_s2_13kas.jsonl", EP + "/sprint_s4/cagri_s4_*.jsonl", EP + "/sprint_s5/cagri_s5_*.jsonl"]
 ANA_KOK = [  # (klasor ya da dosya, ozyineli)
     ("epistemics/README.md", 0), ("epistemics/DONDURMA_12KAS.sha256", 0), ("epistemics/DONDURMA_12KAS.tsv", 0), ("epistemics/DONDURMA_12KAS_kod_sonuc.zip", 0),
     ("epistemics/rapor_ekleri", 1), ("epistemics/sekil_sprint", 1),
     ("oyun_alani_v4", "py"), ("oyun_alani_v4", "sha256"), ("oyun_alani_v4/aktarim", 1),
-    (EP + "/onkayit_sprint", 1), (EP + "/sprint_s1", 1), (EP + "/sprint_s2", 1), (EP + "/sprint_s3", 1), (EP + "/sprint_s4", 1),
+    (EP + "/onkayit_sprint", 1), (EP + "/sprint_s1", 1), (EP + "/sprint_s2", 1), (EP + "/sprint_s3", 1), (EP + "/sprint_s4", 1), (EP + "/sprint_s5", 1),
     ("film_epistemics", "film")]
 
 
@@ -120,13 +120,13 @@ def main():
     S1, S2 = {}, {}
     za = yaz("epistemics_kod_veri_15kas.zip", ana, S1)
     zh = yaz("epistemics_ham_kayit_15kas.zip", ham, S2)
-    R = ["# Code / data package · 15 Nov 2026", "", "Built by `epistemics/rapor_ekleri/paket.py`. NOT published (no push, no upload); publishing is the author's decision. Each archive contains `SHA256SUMS.txt` (sha256 of every file, path relative to the `sprint/` folder).", "",
+    R = ["# Code / data package · 15 Nov 2026", "", "Built by `epistemics/rapor_ekleri/paket.py`. The first build was published by the author on 15 Nov 2026 (GitHub, first commit and release `sprint-15nov2026`); this rebuild adds S5 and is local until the author's word (no push, no upload). Each archive contains `SHA256SUMS.txt` (sha256 of every file, path relative to the `sprint/` folder).", "",
          "| archive | files | uncompressed | archive size | sha256 of the archive |", "|---|---|---|---|---|"]
     for z, n, hb, zb in (za, zh):
         R.append("| `%s` | %d | %.1f MB | %.1f MB | `%s` |" % (os.path.basename(z), n, hb / 1e6, zb / 1e6, sha(open(z, "rb").read())))
     R += ["", "Location (local only): `%s`." % CIK, "",
-          "Main archive: pre-sprint world and runner (`oyun_alani_v4/*.py`, `aktarim/`, freeze manifests and the 12 Nov snapshot zip), sprint preregistrations, deviation files, sprint scripts, measurement files and run logs (S1-S4), the bridge check, figures and tables, README, report appendices, and the video's text, sources and code (no video file).",
-          "Raw-record archive: the run records and replays (`sprint_s2/kosular`, `kosular_oynat`, `sprint_s3/kosular`), the model call logs (`sprint_s1/kosu_397b_s1_13kas`, `sprint_s4/cagri_s4_*.jsonl`) and the contradiction-fork answers (`celiski_s2_13kas.jsonl`, `catal_s3_14kas.jsonl`).",
+          "Main archive: pre-sprint world and runner (`oyun_alani_v4/*.py`, `aktarim/`, freeze manifests and the 12 Nov snapshot zip), sprint preregistrations, deviation files, sprint scripts, measurement files and run logs (S1-S5), the bridge check, figures and tables, README, report appendices, and the video's text, sources and code (no video file).",
+          "Raw-record archive: the run records and replays (`sprint_s2/kosular`, `kosular_oynat`, `sprint_s3/kosular`), the model call logs (`sprint_s1/kosu_397b_s1_13kas`, `sprint_s4/cagri_s4_*.jsonl`, `sprint_s5/cagri_s5_*.jsonl`; files named `sahte` are fake-data pipeline tests) and the contradiction-fork answers (`celiski_s2_13kas.jsonl`, `catal_s3_14kas.jsonl`).",
           "Left out: %d scratch / cache files (`karalama*`, `__pycache__`) and %d video / generated files (mp4 files and the generated `filmler.js`; the video is delivered separately)." % (sum(1 for d in dis if d[1].startswith("scratch")), sum(1 for d in dis if d[1].startswith("video"))), "",
           "## Secret and personal-data scan", "",
           "Every text file put into the archives was scanned, including the files inside the 12 Nov snapshot zip. Values are never printed; only file and count.", ""]

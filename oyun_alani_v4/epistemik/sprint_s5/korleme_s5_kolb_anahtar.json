@@ -1,0 +1,162 @@
+{
+ "1": {
+  "vaka": "SG_55",
+  "tur": "G",
+  "n": 20,
+  "eylem": "anahtar_kullan",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "2": {
+  "vaka": "SG_58",
+  "tur": "G",
+  "n": 17,
+  "eylem": "git",
+  "hedef": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "3": {
+  "vaka": "SG_48",
+  "tur": "G",
+  "n": 33,
+  "eylem": "bitir",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "4": {
+  "vaka": "SG_46",
+  "tur": "G",
+  "n": 12,
+  "eylem": "anahtar_al",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "5": {
+  "vaka": "SU_55",
+  "tur": "U",
+  "n": 20,
+  "eylem": "anahtar_kullan",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "6": {
+  "vaka": "SG_51",
+  "tur": "G",
+  "n": 39,
+  "eylem": "goster",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "7": {
+  "vaka": "SG_57",
+  "tur": "G",
+  "n": 30,
+  "eylem": "bitir",
+  "hedef": null,
+  "otomatik": "uyumsuz"
+ },
+ "8": {
+  "vaka": "SG_51",
+  "tur": "G",
+  "n": 15,
+  "eylem": "git",
+  "hedef": "ODA1",
+  "otomatik": "uyumlu"
+ },
+ "9": {
+  "vaka": "SG_60",
+  "tur": "G",
+  "n": 11,
+  "eylem": "git",
+  "hedef": "ODA2",
+  "otomatik": "belirsiz"
+ },
+ "10": {
+  "vaka": "SG_56",
+  "tur": "G",
+  "n": 11,
+  "eylem": "anahtar_al",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "11": {
+  "vaka": "SU_56",
+  "tur": "U",
+  "n": 35,
+  "eylem": "bitir",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "12": {
+  "vaka": "SU_51",
+  "tur": "U",
+  "n": 23,
+  "eylem": "git",
+  "hedef": "ODA1",
+  "otomatik": "uyumlu"
+ },
+ "13": {
+  "vaka": "SU_47",
+  "tur": "U",
+  "n": 35,
+  "eylem": "levha_cevap",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "14": {
+  "vaka": "SU_59",
+  "tur": "U",
+  "n": 14,
+  "eylem": "git",
+  "hedef": "ODA1",
+  "otomatik": "uyumlu"
+ },
+ "15": {
+  "vaka": "SU_54",
+  "tur": "U",
+  "n": 5,
+  "eylem": "levha_cevap",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "16": {
+  "vaka": "SG_53",
+  "tur": "G",
+  "n": 33,
+  "eylem": "bitir",
+  "hedef": null,
+  "otomatik": "uyumsuz"
+ },
+ "17": {
+  "vaka": "SG_47",
+  "tur": "G",
+  "n": 39,
+  "eylem": "goster",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "18": {
+  "vaka": "SG_59",
+  "tur": "G",
+  "n": 12,
+  "eylem": "git",
+  "hedef": "ODA2",
+  "otomatik": "belirsiz"
+ },
+ "19": {
+  "vaka": "SU_51",
+  "tur": "U",
+  "n": 38,
+  "eylem": "goster",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ },
+ "20": {
+  "vaka": "SU_59",
+  "tur": "U",
+  "n": 35,
+  "eylem": "levha_cevap",
+  "hedef": null,
+  "otomatik": "uyumlu"
+ }
+}

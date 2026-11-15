@@ -1,0 +1,246 @@
+{
+ "betik": "s5.py olc",
+ "sahte": false,
+ "soru": "Oyun dışı soru: Bir sonraki hamlende ne yapacaksın ve nereye gideceksin? Yalnız tek cümle yaz.",
+ "model": {
+  "397B": {
+   "birincil": {
+    "kosu_U": 15,
+    "kosu_G": 15,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.011,
+    "ort_G": 0.0,
+    "fark": 0.011,
+    "ara": [
+     0.0,
+     0.033
+    ],
+    "auc": 0.533,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 161,
+     "bos": 105,
+     "uyumsuz": 1
+    }
+   },
+   "kati_betimleme": {
+    "kosu_U": 15,
+    "kosu_G": 15,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.039,
+    "ort_G": 0.046,
+    "fark": -0.007,
+    "ara": [
+     -0.057,
+     0.042
+    ],
+    "auc": 0.476,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 155,
+     "bos": 105,
+     "uyumsuz": 7
+    }
+   },
+   "cevap": 267,
+   "an": 89,
+   "A0_eylem_eylem": {
+    "kosu_U": 15,
+    "kosu_G": 15,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.022,
+    "ort_G": 0.017,
+    "fark": 0.006,
+    "ara": [
+     -0.006,
+     0.022
+    ],
+    "auc": 0.529,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 257,
+     "uyumsuz": 5,
+     "bos": 5
+    }
+   },
+   "esli_soz_eksi_eylem": {
+    "kosu": 30,
+    "U": {
+     "ort": -0.011,
+     "ara": [
+      -0.048,
+      0.026
+     ],
+     "okuma": "taban üstünde değil"
+    },
+    "G": {
+     "ort": -0.017,
+     "ara": [
+      -0.05,
+      0.0
+     ],
+     "okuma": "taban üstünde değil"
+    },
+    "U_eksi_G": {
+     "deger": 0.006,
+     "ara": [
+      -0.02,
+      0.035
+     ],
+     "auc": 0.502
+    }
+   },
+   "kesif": {
+    "uyumsuz_ort_anan_an": 0.015,
+    "uyumsuz_ort_anmayan_an": 0.0,
+    "uyumsuz_israr_auc_(uyumsuz>0 an, israr yuksek)": 0.259
+   }
+  },
+  "7B": {
+   "birincil": {
+    "kosu_U": 14,
+    "kosu_G": 11,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.216,
+    "ort_G": 0.258,
+    "fark": -0.042,
+    "ara": [
+     -0.184,
+     0.09
+    ],
+    "auc": 0.458,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 160,
+     "uyumsuz": 48,
+     "belirsiz": 17
+    }
+   },
+   "kati_betimleme": {
+    "kosu_U": 14,
+    "kosu_G": 11,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.244,
+    "ort_G": 0.29,
+    "fark": -0.047,
+    "ara": [
+     -0.193,
+     0.102
+    ],
+    "auc": 0.39,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 144,
+     "uyumsuz": 54,
+     "belirsiz": 27
+    }
+   },
+   "cevap": 225,
+   "an": 75,
+   "A0_eylem_eylem": {
+    "kosu_U": 14,
+    "kosu_G": 11,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.19,
+    "ort_G": 0.222,
+    "fark": -0.032,
+    "ara": [
+     -0.16,
+     0.103
+    ],
+    "auc": 0.442,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 179,
+     "uyumsuz": 46
+    }
+   },
+   "esli_soz_eksi_eylem": {
+    "kosu": 25,
+    "U": {
+     "ort": 0.026,
+     "ara": [
+      -0.094,
+      0.133
+     ],
+     "okuma": "taban üstünde değil"
+    },
+    "G": {
+     "ort": 0.036,
+     "ara": [
+      -0.085,
+      0.158
+     ],
+     "okuma": "taban üstünde değil"
+    },
+    "U_eksi_G": {
+     "deger": -0.011,
+     "ara": [
+      -0.184,
+      0.166
+     ],
+     "auc": 0.497
+    }
+   },
+   "istemi_birebir": {
+    "kosu_U": 14,
+    "kosu_G": 11,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.009,
+    "ort_G": 0.071,
+    "fark": -0.062,
+    "ara": [
+     -0.144,
+     0.009
+    ],
+    "auc": 0.396,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 106,
+     "uyumsuz": 8,
+     "belirsiz": 3
+    }
+   },
+   "istemi_birebir_DEGIL": {
+    "kosu_U": 12,
+    "kosu_G": 6,
+    "tanimsiz_kosu": 0,
+    "ort_U": 0.397,
+    "ort_G": 0.544,
+    "fark": -0.147,
+    "ara": [
+     -0.438,
+     0.167
+    ],
+    "auc": 0.347,
+    "okuma": "ayırmıyor (aralık 0'ı içeriyor)",
+    "etiket": {
+     "uyumlu": 54,
+     "uyumsuz": 40,
+     "belirsiz": 14
+    }
+   },
+   "kesif": {
+    "uyumsuz_ort_anan_an": 0.022,
+    "uyumsuz_ort_anmayan_an": 0.294,
+    "uyumsuz_israr_auc_(uyumsuz>0 an, israr yuksek)": 0.525
+   }
+  }
+ },
+ "model_farki": {
+  "397B U - 7B U": {
+   "deger": -0.205,
+   "ara": [
+    -0.268,
+    -0.139
+   ]
+  },
+  "397B G - 7B G": {
+   "deger": -0.258,
+   "ara": [
+    -0.386,
+    -0.139
+   ]
+  }
+ }
+}

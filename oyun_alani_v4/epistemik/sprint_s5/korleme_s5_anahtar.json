@@ -1,0 +1,322 @@
+{
+ "1": {
+  "an": "7B:DU_56:53",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "uyumsuz"
+ },
+ "2": {
+  "an": "397B:SG_47:2",
+  "k": 3,
+  "model": "397B",
+  "tur": "G",
+  "X": "K1",
+  "otomatik": "bos"
+ },
+ "3": {
+  "an": "397B:SU_55:17",
+  "k": 3,
+  "model": "397B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "bos"
+ },
+ "4": {
+  "an": "397B:SU_49:11",
+  "k": 3,
+  "model": "397B",
+  "tur": "U",
+  "X": "ODA2",
+  "otomatik": "bos"
+ },
+ "5": {
+  "an": "397B:SG_52:15",
+  "k": 3,
+  "model": "397B",
+  "tur": "G",
+  "X": "ODA2",
+  "otomatik": "uyumlu"
+ },
+ "6": {
+  "an": "7B:DU_56:9",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "7": {
+  "an": "397B:SG_52:15",
+  "k": 2,
+  "model": "397B",
+  "tur": "G",
+  "X": "ODA2",
+  "otomatik": "uyumlu"
+ },
+ "8": {
+  "an": "7B:DU_59:49",
+  "k": 1,
+  "model": "7B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "9": {
+  "an": "7B:DU_53:9",
+  "k": 2,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "10": {
+  "an": "397B:SG_49:2",
+  "k": 1,
+  "model": "397B",
+  "tur": "G",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "11": {
+  "an": "397B:SG_57:17",
+  "k": 3,
+  "model": "397B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "12": {
+  "an": "397B:SG_54:17",
+  "k": 2,
+  "model": "397B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "bos"
+ },
+ "13": {
+  "an": "397B:SG_50:2",
+  "k": 3,
+  "model": "397B",
+  "tur": "G",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "14": {
+  "an": "7B:DG_52:49",
+  "k": 3,
+  "model": "7B",
+  "tur": "G",
+  "X": "ODA1",
+  "otomatik": "uyumsuz"
+ },
+ "15": {
+  "an": "7B:DU_58:9",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "16": {
+  "an": "397B:SU_50:14",
+  "k": 1,
+  "model": "397B",
+  "tur": "U",
+  "X": "ODA2",
+  "otomatik": "uyumlu"
+ },
+ "17": {
+  "an": "7B:DU_49:48",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "18": {
+  "an": "397B:SU_48:2",
+  "k": 1,
+  "model": "397B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "bos"
+ },
+ "19": {
+  "an": "7B:DU_57:49",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "uyumsuz"
+ },
+ "20": {
+  "an": "7B:DU_56:9",
+  "k": 1,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "21": {
+  "an": "7B:DU_50:9",
+  "k": 2,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "22": {
+  "an": "397B:SU_56:2",
+  "k": 3,
+  "model": "397B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "bos"
+ },
+ "23": {
+  "an": "7B:DU_58:9",
+  "k": 1,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "24": {
+  "an": "7B:DU_47:38",
+  "k": 1,
+  "model": "7B",
+  "tur": "U",
+  "X": "ODA2",
+  "otomatik": "uyumlu"
+ },
+ "25": {
+  "an": "397B:SG_54:11",
+  "k": 2,
+  "model": "397B",
+  "tur": "G",
+  "X": "ODA2",
+  "otomatik": "uyumlu"
+ },
+ "26": {
+  "an": "397B:SU_46:17",
+  "k": 2,
+  "model": "397B",
+  "tur": "U",
+  "X": "ODA2",
+  "otomatik": "bos"
+ },
+ "27": {
+  "an": "7B:DU_47:9",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "28": {
+  "an": "7B:DG_54:34",
+  "k": 2,
+  "model": "7B",
+  "tur": "G",
+  "X": "ODA2",
+  "otomatik": "uyumlu"
+ },
+ "29": {
+  "an": "397B:SG_55:17",
+  "k": 1,
+  "model": "397B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "30": {
+  "an": "7B:DU_58:9",
+  "k": 2,
+  "model": "7B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "31": {
+  "an": "397B:SG_51:12",
+  "k": 2,
+  "model": "397B",
+  "tur": "G",
+  "X": "ODA2",
+  "otomatik": "bos"
+ },
+ "32": {
+  "an": "7B:DG_46:41",
+  "k": 1,
+  "model": "7B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "33": {
+  "an": "7B:DU_48:43",
+  "k": 2,
+  "model": "7B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "34": {
+  "an": "397B:SG_49:17",
+  "k": 1,
+  "model": "397B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "bos"
+ },
+ "35": {
+  "an": "397B:SU_50:2",
+  "k": 3,
+  "model": "397B",
+  "tur": "U",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ },
+ "36": {
+  "an": "7B:DU_50:39",
+  "k": 3,
+  "model": "7B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "37": {
+  "an": "7B:DG_49:48",
+  "k": 3,
+  "model": "7B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "uyumlu"
+ },
+ "38": {
+  "an": "397B:SU_46:23",
+  "k": 3,
+  "model": "397B",
+  "tur": "U",
+  "X": "CIKIS",
+  "otomatik": "bos"
+ },
+ "39": {
+  "an": "397B:SG_53:17",
+  "k": 2,
+  "model": "397B",
+  "tur": "G",
+  "X": "CIKIS",
+  "otomatik": "bos"
+ },
+ "40": {
+  "an": "7B:DG_53:9",
+  "k": 1,
+  "model": "7B",
+  "tur": "G",
+  "X": "K1",
+  "otomatik": "uyumlu"
+ }
+}
